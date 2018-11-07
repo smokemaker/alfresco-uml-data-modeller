@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Neodoc Alfresco UML profile
+Bundle-SymbolicName: ru.neodoc.content.profile;singleton:=true
+Bundle-Version: 1.3.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.emf.ecore;bundle-version="2.11.2",
+ org.eclipse.papyrus.uml.extensionpoints;bundle-version="1.3.0",
+ org.eclipse.papyrus.uml.tools.utils;bundle-version="3.3.0",
+ ru.neodoc.content.utils;bundle-version="1.1.2"
+Bundle-Vendor: Neologica LLC
+Export-Package: ru.neodoc.content.profile.alfresco,
+ ru.neodoc.content.profile.alfresco.search.helper,
+ ru.neodoc.content.profile.alfresco.ui,
+ ru.neodoc.content.profile.meta.alfresco.forassociation,
+ ru.neodoc.content.profile.meta.alfresco.forclass,
+ ru.neodoc.content.profile.meta.alfresco.forconstraint,
+ ru.neodoc.content.profile.meta.alfresco.fordependency,
+ ru.neodoc.content.profile.meta.alfresco.forgeneralization,
+ ru.neodoc.content.profile.meta.alfresco.formodel,
+ ru.neodoc.content.profile.meta.alfresco.forpackage,
+ ru.neodoc.content.profile.meta.alfresco.forpackageimport,
+ ru.neodoc.content.profile.meta.alfresco.forprimitivetype,
+ ru.neodoc.content.profile.meta.alfresco.forproperty,
+ ru.neodoc.content.profile.meta.alfresco.internal
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: ru.neodoc.content.profile.alfresco.Activator

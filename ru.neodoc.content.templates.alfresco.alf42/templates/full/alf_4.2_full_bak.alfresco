@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ndalf:Alfresco xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ndad="http://neodoc.neologica.ru/tools/alfresco/modeller/dictionaries" xmlns:ndalf="http://neodoc.neologica.ru/tools/alfresco/modeller" xsi:schemaLocation="http://neodoc.neologica.ru/tools/alfresco/modeller/dictionaries http://neodoc.neologica.ru/tools/alfresco/modeller#//dictionaries" defaultCss="/model-templates-alfresco/alfresco4.2/models/alf_4.2_full.css">
+  <dictionaries xmi:type="ndad:Dictionaries">
+    <dictionaries xmi:type="ndad:Dictionary" location="&lt;internal>" isReadOnly="true" Name="app:applicationmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="app" url="http://www.alfresco.org/model/application/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url=""/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="wcm" url="http://www.alfresco.org/model/wcmmodel/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url=""/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="&lt;internal>" isReadOnly="true" Name="cm:contentmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="exif" url="http://www.alfresco.org/model/exif/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="webdav" url="http://www.alfresco.org/model/webdav/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="rn" url="http://www.alfresco.org/model/rendition/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="audio" url="http://www.alfresco.org/model/audio/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url=""/>
+      <imports xmi:type="ndad:Import" alias="d" url=""/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="&lt;internal>" isReadOnly="true" Name="d:dictionary">
+      <namespaces xmi:type="ndad:Namespace" alias="" url=""/>
+      <namespaces xmi:type="ndad:Namespace" alias="d" url=""/>
+      <namespaces xmi:type="ndad:Namespace" alias="view" url="http://www.alfresco.org/view/repository/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="alf" url="http://www.alfresco.org"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="&lt;internal>" isReadOnly="true" Name="sys:systemmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="sys" url=""/>
+      <namespaces xmi:type="ndad:Namespace" alias="module" url="http://www.alfresco.org/system/modules/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="reg" url="http://www.alfresco.org/system/registry/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url=""/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="&lt;internal>" isReadOnly="true" Name="wcm:wcmmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="wcm" url="http://www.alfresco.org/model/wcmmodel/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url=""/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url=""/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="&lt;internal>" isReadOnly="true" Name="bpm:businessprocessmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="bpm" url="http://www.alfresco.org/model/bpm/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url=""/>
+      <imports xmi:type="ndad:Import" alias="d" url=""/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/blogIntegrationModel.xml" Name="blg:blogintegration">
+      <namespaces xmi:type="ndad:Namespace" alias="blg" url="http://www.alfresco.org/model/blogintegration/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/calendarModel.xml" Name="ia:CalendarEventModel">
+      <namespaces xmi:type="ndad:Namespace" alias="ia" url="http://www.alfresco.org/model/calendar"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/cmisModel.xml" Name="cmis:cmismodel">
+      <namespaces xmi:type="ndad:Namespace" alias="cmis" url="http://www.alfresco.org/model/cmis/1.0/cs01"/>
+      <namespaces xmi:type="ndad:Namespace" alias="cmisext" url="http://www.alfresco.org/model/cmis/1.0/cs01ext"/>
+      <namespaces xmi:type="ndad:Namespace" alias="alfcmis" url="http://www.alfresco.org/model/cmis/1.0/alfcmis"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/cmisTestModel.xml" Name="cmiscustom:model">
+      <namespaces xmi:type="ndad:Namespace" alias="cmiscustom" url="http://www.alfresco.org/model/cmis/custom"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/datalistModel.xml" Name="dl:datalistmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="dl" url="http://www.alfresco.org/model/datalist/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/defaultCustomModel.xml" Name="custom:customModel">
+      <namespaces xmi:type="ndad:Namespace" alias="custom" url="custom.model"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/distributionPoliciesModel.xml" Name="dp:distributionPoliciesModel">
+      <namespaces xmi:type="ndad:Namespace" alias="dp" url="http://www.alfresco.org/model/distributionpolicies/1.0/model"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/downloadModel.xml" Name="download:downloadModel">
+      <namespaces xmi:type="ndad:Namespace" alias="download" url="http://www.alfresco.org/model/download/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/emailServerModel.xml" Name="emailserver:emailserverModel">
+      <namespaces xmi:type="ndad:Namespace" alias="emailserver" url="http://www.alfresco.org/model/emailserver/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/facebookPublishingModel.xml" Name="facebook:publishingmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="facebook" url="http://www.alfresco.org/model/publishing/facebook/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/flickrPublishingModel.xml" Name="flickr:publishingmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="flickr" url="http://www.alfresco.org/model/publishing/flickr/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/forumModel.xml" Name="fm:forummodel">
+      <namespaces xmi:type="ndad:Namespace" alias="fm" url="http://www.alfresco.org/model/forum/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/imapModel.xml" Name="imap:imapmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="imap" url="http://www.alfresco.org/model/imap/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/jcrModel.xml" Name="jcr:jcrmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="jcr" url="http://www.jcp.org/jcr/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="nt" url="http://www.jcp.org/jcr/nt/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="mix" url="http://www.jcp.org/jcr/mix/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="sv" url="http://www.jcp.org/jcr/sv/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="xml" url="http://www.w3.org/XML/1998/namespace"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/linkedInPublishingModel.xml" Name="linkedin:publishingmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="linkedin" url="http://www.alfresco.org/model/publishing/linkedin/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/linksModel.xml" Name="lnk:linksmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="lnk" url="http://www.alfresco.org/model/linksmodel/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/publishingModel.xml" Name="pub:publishingmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="st" url="http://www.alfresco.org/model/site/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/quickShareModel.xml" Name="qshare:qsharemodel">
+      <namespaces xmi:type="ndad:Namespace" alias="qshare" url="http://www.alfresco.org/model/qshare/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/remoteCredentialsModel.xml" Name="rc:RemoteCredentialsModel">
+      <namespaces xmi:type="ndad:Namespace" alias="rc" url="http://www.alfresco.org/model/remotecredentials/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/shareUiModel.xml" Name="surf:uimodel">
+      <namespaces xmi:type="ndad:Namespace" alias="surf" url="http://www.alfresco.org/model/surf/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/siteModel.xml" Name="st:siteModel">
+      <namespaces xmi:type="ndad:Namespace" alias="st" url="http://www.alfresco.org/model/site/1.0"/>
+      <namespaces xmi:type="ndad:Namespace" alias="stcp" url="http://www.alfresco.org/model/sitecustomproperty/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/slidesharePublishingModel.xml" Name="slideshare:publishingmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="slideshare" url="http://www.alfresco.org/model/publishing/slideshare/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/transferModel.xml" Name="trx:applicationmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="trx" url="http://www.alfresco.org/model/transfer/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/twitterPublishingModel.xml" Name="twitter:publishingmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="twitter" url="http://www.alfresco.org/model/publishing/twitter/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/wcmAppModel.xml" Name="wca:applicationmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="wca" url="http://www.alfresco.org/model/wcmappmodel/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="wcm" url="http://www.alfresco.org/model/wcmmodel/1.0"/>
+    </dictionaries>
+    <dictionaries xmi:type="ndad:Dictionary" location="/model-templates-alfresco/alfresco4.2/dictionary/youtubePublishingModel.xml" Name="youtube:publishingmodel">
+      <namespaces xmi:type="ndad:Namespace" alias="youtube" url="http://www.alfresco.org/model/publishing/youtube/1.0"/>
+      <imports xmi:type="ndad:Import" alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports xmi:type="ndad:Import" alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports xmi:type="ndad:Import" alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports xmi:type="ndad:Import" alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+  </dictionaries>
+</ndalf:Alfresco>

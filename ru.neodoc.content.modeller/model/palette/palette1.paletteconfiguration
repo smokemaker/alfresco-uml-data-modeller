@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ASCII"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="ru.neodoc.content.modeller.alfresco.palette" label="AlfrescoPalette" description="">
+  <drawerConfigurations id="alfresco.root" label="Alfresco">
+    <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/full/obj16/Alfresco.gif"/>
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.class_aspect" label="Aspect" description="Create a new Aspect">
+      <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/Aspect.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJooD2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJo4D2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJpID2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJpYD2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJoYD2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.class_type" label="Type" description="Create a new Type">
+      <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/Type.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJpoD2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJp4D2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJqID2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJqYD2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_heqJqoD2EeeCz7NdWA5edg"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.generalization_inherit" label="Generalization" kind="ConnectionTool">
+      <icon pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Generalization.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_RLv48JMXEeerGtGffIUV0w"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.association_peer" label="Peer Association" description="Create a Peer Association" kind="ConnectionTool">
+      <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/PeerAssociation.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_1Elv4IHREee75O184I4nPg"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.association_child" label="Child Association" description="Create a Child Association" kind="ConnectionTool">
+      <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/ChildAssociation.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_hHjXcoKGEee75O184I4nPg"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.association_ma" label="Mandatory Aspect" description="Create a Mandatory Aspect" kind="ConnectionTool">
+      <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/MandatoryAspect.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_hHjXc4KGEee75O184I4nPg"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.property_property" label="Property" description="Create a Property">
+      <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/Property.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_pK6CcINNEeeHQa6Yo_0abA"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_6JlxIINNEeeHQa6Yo_0abA"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_MNgCgINOEeeHQa6Yo_0abA"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_TNWwkINOEeeHQa6Yo_0abA"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_UwPfoINOEeeHQa6Yo_0abA"/>
+      </elementDescriptors>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_U9q3oINOEeeHQa6Yo_0abA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.dependency_propertyoverride" label="Property Override" description="Create property override link" kind="ConnectionTool" toolClassName="">
+      <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/PropertyOverride.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_LxBuIHPeEei6yfXPHWj2Kw"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xsi:type="paletteconfiguration:StackConfiguration" id="Stack_1525694194664" label="Stack">
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.cnstraint_length" label="Length Constraint" description="Create a length constraint">
+        <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/ConstraintLength.gif"/>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_cWruYFKYEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_3ugbIFKYEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.cnstraint_list" label="List Constraint" description="Create a list constraint">
+        <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/ConstraintList.gif"/>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_skT8IFKvEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_5fdj8FKvEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.cnstraint_minmax" label="Minmax Constraint" description="Create a minmax constraint">
+        <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/ConstraintMinmax.gif"/>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_M-Gt8FKwEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_M-Gt8VKwEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.cnstraint_regex" label="Regex Constraint" description="Create a regex constraint">
+        <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/ConstraintRegex.gif"/>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_NOAyMFKwEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_NOAyMVKwEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.cnstraint_custom" label="Custom Constraint" description="Create a custom constraint">
+        <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/ConstraintCustom.gif"/>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_NiTAIFKwEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_NiTAIVKwEeiJD8QJVNKMSg"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.dependency_constrainted" label="Constraint Link" description="Create property - constraint link" kind="ConnectionTool">
+        <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/Constrainted.gif"/>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_FJecEGA6EeiN8syFhu0XAQ"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+      <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.dependency_constrainted_inline" label="Inline Constraint Link" description="Create property - constraint inline link" kind="ConnectionTool">
+        <icon pluginID="ru.neodoc.content.modeller" iconPath="/icons/profile/Constrainted.gif"/>
+        <elementDescriptors/>
+        <elementDescriptors>
+          <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_UI.elementtypesconfigurations#_zKQLgGA7EeiN8syFhu0XAQ"/>
+        </elementDescriptors>
+      </ownedConfigurations>
+    </ownedConfigurations>
+  </drawerConfigurations>
+</paletteconfiguration:PaletteConfiguration>

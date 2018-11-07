@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_IkiDwOQVEeKH-LdNrR-naw" name="profile">
+  <eAnnotations xmi:id="_eFj8QeQVEeKH-LdNrR-naw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_eFj8QuQVEeKH-LdNrR-naw" name="profile" nsURI="http:///schemas/profile/_eFj8QOQVEeKH-LdNrR-naw/0" nsPrefix="profile">
+      <eAnnotations xmi:id="_eFkjUOQVEeKH-LdNrR-naw" source="PapyrusVersion">
+        <details xmi:id="_eFkjUeQVEeKH-LdNrR-naw" key="Version" value="0.0.1"/>
+        <details xmi:id="_eFkjUuQVEeKH-LdNrR-naw" key="Comment" value=""/>
+        <details xmi:id="_eFkjU-QVEeKH-LdNrR-naw" key="Copyright" value=""/>
+        <details xmi:id="_eFkjVOQVEeKH-LdNrR-naw" key="Date" value="2013-07-03"/>
+        <details xmi:id="_eFkjVeQVEeKH-LdNrR-naw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_eFj8Q-QVEeKH-LdNrR-naw" name="HwSerialBus">
+        <eAnnotations xmi:id="_eFj8ROQVEeKH-LdNrR-naw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_UDVpYOQVEeKH-LdNrR-naw"/>
+        <eAnnotations xmi:id="_eFj8ReQVEeKH-LdNrR-naw" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_eFj8RuQVEeKH-LdNrR-naw" name="isSerial" ordered="false" unique="false">
+            <eAnnotations xmi:id="_eFj8R-QVEeKH-LdNrR-naw" source="redefines">
+              <references xmi:type="ecore:EAttribute" href="http://www.eclipse.org/papyrus/MARTE/1#//HRM/HwLogical/HwCommunication/HwBus/isSerial"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+          </contents>
+        </eAnnotations>
+        <eSuperTypes href="http://www.eclipse.org/papyrus/MARTE/1#//HRM/HwLogical/HwCommunication/HwBus"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:id="_MbhjcOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_zaC5cAPHEdyeNfbOYuD9pg"/>
+  </packageImport>
+  <packageImport xmi:id="_MbhjceQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_U_GAoAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbhjcuQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_WStkoAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_Mbhjc-QVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_XVWGUAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbhjdOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ar8OsAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbhjdeQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_-wEewECLEd6UTJZnztgOLw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbhjduQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_yNSZIAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_Mbhjd-QVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_aMhZsBJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbhjeOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_bmL7UBJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbhjeeQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_dG2c0BJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKgOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ja8REBJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKgeQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_gHI-ABJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKguQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_hst0sBJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKg-QVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ZJjPoEIbEd6dmI2dd6jVFQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKhOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_P80EcBJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKheQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_uAf6gBJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKhuQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_vrbyUBJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKh-QVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_R7sL8BJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKiOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_WGZ44BJwEdygQ5HMNSpiZw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKieQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_2dtsgAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbiKiuQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_-1fcUBJdEdy3Td9UhuLFPg"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixkOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_A_vtYBJeEdy3Td9UhuLFPg"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixkeQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_Cf874BJeEdy3Td9UhuLFPg"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixkuQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_EIfnABJeEdy3Td9UhuLFPg"/>
+  </packageImport>
+  <packageImport xmi:id="_Mbixk-QVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_3VS0wAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixlOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_YgAioAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixleQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_4bV20APMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixluQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_5ZCOIAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_Mbixl-QVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_6c2bkAPMEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixmOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_DIIJoAPNEdyuUt-4qHuVvQ"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixmeQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9FdqwA-MEdyLh7muGbCqMw"/>
+  </packageImport>
+  <packageImport xmi:id="_MbixmuQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9UgzYA-MEdyLh7muGbCqMw"/>
+  </packageImport>
+  <packageImport xmi:id="_Mbixm-QVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_jg_Z8PfhEd-f4r3MXmUB9g"/>
+  </packageImport>
+  <packageImport xmi:id="_MbjYoOQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_CHiIYA-LEdyNj8xzjk-DoA"/>
+  </packageImport>
+  <packageImport xmi:id="_N6Vq0OQVEeKH-LdNrR-naw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_UDVpYOQVEeKH-LdNrR-naw" name="HwSerialBus">
+    <generalization xmi:id="_dDlh4OQVEeKH-LdNrR-naw">
+      <general xmi:type="uml:Stereotype" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_7m3jYBKNEdy1B7_71Kp_8Q"/>
+    </generalization>
+    <ownedAttribute xmi:id="_WG6qsOQVEeKH-LdNrR-naw" name="isSerial">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <redefinedProperty href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9DOzsBKNEdy1B7_71Kp_8Q"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Profile>

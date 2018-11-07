@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ndalf:Alfresco xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ndalf="http://neodoc.neologica.ru/tools/alfresco/modeller" defaultCss="/ru.neodoc.content.templates.alfresco.alf51/templates/full/alf_5.2_full.css">
+  <dictionaries>
+    <dictionaries location="&lt;internal>" isReadOnly="true" Name="d:dictionary">
+      <namespaces alias="_" url=""/>
+      <namespaces alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <namespaces alias="view" url="http://www.alfresco.org/view/repository/1.0"/>
+      <namespaces alias="alf" url="http://www.alfresco.org"/>
+    </dictionaries>
+    <dictionaries location="&lt;internal>" isReadOnly="true" Name="usr:usermodel">
+      <namespaces alias="usr" url="http://www.alfresco.org/model/user/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries location="&lt;internal>" isReadOnly="true" Name="bpm:businessprocessmodel">
+      <namespaces alias="bpm" url="http://www.alfresco.org/model/bpm/1.0"/>
+      <imports alias="usr" url="http://www.alfresco.org/model/user/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries location="&lt;internal>" isReadOnly="true" Name="cm:contentmodel">
+      <namespaces alias="exif" url="http://www.alfresco.org/model/exif/1.0"/>
+      <namespaces alias="webdav" url="http://www.alfresco.org/model/webdav/1.0"/>
+      <namespaces alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <namespaces alias="rn" url="http://www.alfresco.org/model/rendition/1.0"/>
+      <namespaces alias="audio" url="http://www.alfresco.org/model/audio/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries location="&lt;internal>" isReadOnly="true" Name="sys:systemmodel">
+      <namespaces alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <namespaces alias="module" url="http://www.alfresco.org/system/modules/1.0"/>
+      <namespaces alias="reg" url="http://www.alfresco.org/system/registry/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries location="&lt;internal>" isReadOnly="true" Name="app:applicationmodel">
+      <namespaces alias="app" url="http://www.alfresco.org/model/application/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/blogIntegrationModel.xml" Name="blg:blogintegration">
+      <namespaces alias="blg" url="http://www.alfresco.org/model/blogintegration/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/calendarModel.xml" Name="ia:CalendarEventModel">
+      <namespaces alias="ia" url="http://www.alfresco.org/model/calendar"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/cmisModel.xml" Name="cmis:cmismodel">
+      <namespaces alias="cmis" url="http://www.alfresco.org/model/cmis/1.0/cs01"/>
+      <namespaces alias="cmisext" url="http://www.alfresco.org/model/cmis/1.0/cs01ext"/>
+      <namespaces alias="alfcmis" url="http://www.alfresco.org/model/cmis/1.0/alfcmis"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/cmisTestModel.xml" Name="cmiscustom:model">
+      <namespaces alias="cmiscustom" url="http://www.alfresco.org/model/cmis/custom"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/customModelManagementModel.xml" Name="cmm:customModelManagementModel">
+      <namespaces alias="cmm" url="http://www.alfresco.org/model/custommodelmanagement/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/defaultCustomModel.xml" Name="custom:customModel">
+      <namespaces alias="custom" url="custom.model"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/distributionPoliciesModel.xml" Name="dp:distributionPoliciesModel">
+      <namespaces alias="dp" url="http://www.alfresco.org/model/distributionpolicies/1.0/model"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/downloadModel.xml" Name="download:downloadModel">
+      <namespaces alias="download" url="http://www.alfresco.org/model/download/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/emailServerModel.xml" Name="emailserver:emailserverModel">
+      <namespaces alias="emailserver" url="http://www.alfresco.org/model/emailserver/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/facebookPublishingModel.xml" Name="facebook:publishingmodel">
+      <namespaces alias="facebook" url="http://www.alfresco.org/model/publishing/facebook/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/flickrPublishingModel.xml" Name="flickr:publishingmodel">
+      <namespaces alias="flickr" url="http://www.alfresco.org/model/publishing/flickr/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/forumModel.xml" Name="fm:forummodel">
+      <namespaces alias="fm" url="http://www.alfresco.org/model/forum/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/imapModel.xml" Name="imap:imapmodel">
+      <namespaces alias="imap" url="http://www.alfresco.org/model/imap/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/linkedInPublishingModel.xml" Name="linkedin:publishingmodel">
+      <namespaces alias="linkedin" url="http://www.alfresco.org/model/publishing/linkedin/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/linksModel.xml" Name="lnk:linksmodel">
+      <namespaces alias="lnk" url="http://www.alfresco.org/model/linksmodel/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/publishingModel.xml" Name="pub:publishingmodel">
+      <namespaces alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="st" url="http://www.alfresco.org/model/site/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/quickShareModel.xml" Name="qshare:qsharemodel">
+      <namespaces alias="qshare" url="http://www.alfresco.org/model/qshare/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/remoteCredentialsModel.xml" Name="rc:RemoteCredentialsModel">
+      <namespaces alias="rc" url="http://www.alfresco.org/model/remotecredentials/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/siteModel.xml" Name="st:siteModel">
+      <namespaces alias="st" url="http://www.alfresco.org/model/site/1.0"/>
+      <namespaces alias="stcp" url="http://www.alfresco.org/model/sitecustomproperty/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/slidesharePublishingModel.xml" Name="slideshare:publishingmodel">
+      <namespaces alias="slideshare" url="http://www.alfresco.org/model/publishing/slideshare/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/smartfolder-model.xml" Name="smf:smartFolder">
+      <namespaces alias="smf" url="http://www.alfresco.org/model/content/smartfolder/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/solrFacetModel.xml" Name="srft:solrfacetmodel">
+      <namespaces alias="srft" url="http://www.alfresco.org/model/solrfacet/1.0"/>
+      <namespaces alias="srftcustom" url="http://www.alfresco.org/model/solrfacetcustomproperty/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/surfModel.xml" Name="surf:uimodel">
+      <namespaces alias="surf" url="http://www.alfresco.org/model/surf/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/transferModel.xml" Name="trx:applicationmodel">
+      <namespaces alias="trx" url="http://www.alfresco.org/model/transfer/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/twitterPublishingModel.xml" Name="twitter:publishingmodel">
+      <namespaces alias="twitter" url="http://www.alfresco.org/model/publishing/twitter/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+    <dictionaries location="/model-templates-alfresco/alfresco5.2/dictionary/youtubePublishingModel.xml" Name="youtube:publishingmodel">
+      <namespaces alias="youtube" url="http://www.alfresco.org/model/publishing/youtube/1.0"/>
+      <imports alias="d" url="http://www.alfresco.org/model/dictionary/1.0"/>
+      <imports alias="sys" url="http://www.alfresco.org/model/system/1.0"/>
+      <imports alias="cm" url="http://www.alfresco.org/model/content/1.0"/>
+      <imports alias="pub" url="http://www.alfresco.org/model/publishing/1.0"/>
+    </dictionaries>
+  </dictionaries>
+</ndalf:Alfresco>

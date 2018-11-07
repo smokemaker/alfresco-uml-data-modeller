@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_3atI0DUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI0TUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI0jUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Model" href="model.uml#_3aNZkDUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI1DUIEeewEL7jKXpLoA" type="Package" name="d:dictionary" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI1TUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI1jUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZkTUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI1zUIEeewEL7jKXpLoA" type="Package" name="usr:usermodel" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI2DUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI2TUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZqzUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI2jUIEeewEL7jKXpLoA" type="Package" name="bpm:businessprocessmodel" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI2zUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI3DUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZ7TUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI3TUIEeewEL7jKXpLoA" type="Package" name="cm:contentmodel" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI3jUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI3zUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOAoDUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI4DUIEeewEL7jKXpLoA" type="Package" name="sys:systemmodel" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI4TUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI4jUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOoFTUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI4zUIEeewEL7jKXpLoA" type="Package" name="app:applicationmodel" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI5DUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI5TUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOo0jUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI5jUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI5zUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI6DUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZkjUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI6TUIEeewEL7jKXpLoA" type="Package" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI6jUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI6zUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZkjUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI7DUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="d_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI7TUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI7jUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZkzUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI7zUIEeewEL7jKXpLoA" type="Package" name="d" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI8DUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI8TUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZkzUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI8jUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="exif_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI8zUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI9DUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOAozUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI9TUIEeewEL7jKXpLoA" type="Package" name="exif" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI9jUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI9zUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOAozUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI-DUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="view_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI-TUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI-jUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZqTUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI-zUIEeewEL7jKXpLoA" type="Package" name="view" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI_DUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atI_TUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZqTUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atI_jUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="sys_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atI_zUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJADUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOoFzUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJATUIEeewEL7jKXpLoA" type="Package" name="sys" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJAjUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJAzUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOoFzUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJBDUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="webdav_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJBTUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJBjUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOA0zUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJBzUIEeewEL7jKXpLoA" type="Package" name="webdav" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJCDUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJCTUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOA0zUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJCjUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="usr_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJCzUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJDDUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZrjUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJDTUIEeewEL7jKXpLoA" type="Package" name="usr" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJDjUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJDzUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZrjUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJEDUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="app_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJETUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJEjUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOo1jUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJEzUIEeewEL7jKXpLoA" type="Package" name="app" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJFDUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJFTUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOo1jUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJFjUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="module_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJFzUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJGDUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOozzUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJGTUIEeewEL7jKXpLoA" type="Package" name="module" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJGjUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJGzUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOozzUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJHDUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="reg_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJHTUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJHjUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOo0DUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJHzUIEeewEL7jKXpLoA" type="Package" name="reg" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJIDUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJITUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOo0DUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJIjUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="cm_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJIzUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJJDUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOA2TUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJJTUIEeewEL7jKXpLoA" type="Package" name="cm" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJJjUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJJzUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOA2TUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJKDUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="rn_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJKTUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJKjUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOn3zUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJKzUIEeewEL7jKXpLoA" type="Package" name="rn" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJLDUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJLTUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOn3zUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJLjUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="audio_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJLzUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJMDUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOn7zUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJMTUIEeewEL7jKXpLoA" type="Package" name="audio" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJMjUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJMzUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aOn7zUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJNDUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="alf_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJNTUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJNjUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZqjUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJNzUIEeewEL7jKXpLoA" type="Package" name="alf" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJODUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJOTUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZqjUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJOjUIEeewEL7jKXpLoA" type="PapyrusUMLClassDiagram" name="bpm_classes" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJOzUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJPDUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZ8jUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3atJPTUIEeewEL7jKXpLoA" type="Package" name="bpm" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3atJPjUIEeewEL7jKXpLoA"/>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_3atJPzUIEeewEL7jKXpLoA" name="css_stylesheets" eObjectListValue="_3jAwQDUIEeewEL7jKXpLoA"/>
+    <element xmi:type="uml:Package" href="model.uml#_3aNZ8jUIEeewEL7jKXpLoA"/>
+  </notation:Diagram>
+  <css:StyleSheetReference xmi:id="_3jAwQDUIEeewEL7jKXpLoA" path="/ru.neodoc.content.templates.alfresco.alf51/templates/full_bak/model.css"/>
+</xmi:XMI>

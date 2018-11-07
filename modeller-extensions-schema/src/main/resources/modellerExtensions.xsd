@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<xs:schema xmlns:me="http://neodoc.ru/modeller/extensions" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://neodoc.ru/modeller/extensions" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xs:element name="extensions">
+		<xs:annotation>
+			<xs:documentation>Extensions root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="models">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="model" type="me:model" minOccurs="0" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:any/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:attributeGroup name="umlRef">
+		<xs:attribute name="umlId" type="xs:string"/>
+		<xs:attribute name="umlName" type="xs:string"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="named">
+		<xs:attribute name="name" type="xs:string" use="optional"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="namespacedObject">
+		<xs:attribute name="prefix" type="xs:string"/>
+		<xs:attribute name="uri" type="xs:string"/>
+	</xs:attributeGroup>
+	<xs:element name="extensionsData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="extensionData" type="me:extensionData" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="model">
+		<xs:complexContent>
+			<xs:extension base="me:modelObjectsContainer">
+				<xs:sequence>
+					<xs:element ref="me:extensionsData"/>
+					<xs:element ref="me:customData"/>
+				</xs:sequence>
+				<xs:attributeGroup ref="me:named"/>
+				<xs:attributeGroup ref="me:umlRef"/>
+				<xs:anyAttribute namespace="##any"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="modelObject">
+		<xs:complexContent>
+			<xs:extension base="me:modelObjectsContainer">
+				<xs:sequence>
+					<xs:element ref="me:extensionsData"/>
+					<xs:element ref="me:customData" minOccurs="0"/>
+				</xs:sequence>
+				<xs:attributeGroup ref="me:named"/>
+				<xs:attributeGroup ref="me:umlRef"/>
+				<xs:anyAttribute namespace="##any"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="extensionData">
+		<xs:sequence>
+			<xs:element name="parameters" type="me:namedParameter" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element ref="me:customData" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="extensionId"/>
+		<xs:anyAttribute/>
+	</xs:complexType>
+	<xs:complexType name="xmlObjectReference">
+		<xs:attributeGroup ref="me:namespacedObject"/>
+	</xs:complexType>
+	<xs:complexType name="umlObjectReference">
+		<xs:attributeGroup ref="me:umlRef"/>
+	</xs:complexType>
+	<xs:complexType name="namedParameter">
+		<xs:choice>
+			<xs:element name="value" type="xs:string"/>
+			<xs:element name="xmlRef" type="me:xmlObjectReference"/>
+			<xs:element name="umlRef" type="me:xmlObjectReference"/>
+		</xs:choice>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="customData">
+		<xs:sequence>
+			<xs:any namespace="##any" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##any"/>
+	</xs:complexType>
+	<xs:element name="customData" type="me:customData"/>
+	<xs:complexType name="modelObjectsContainer">
+		<xs:sequence>
+			<xs:element name="modelObject" type="me:modelObject" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="me:namespacedObject"/>
+	</xs:complexType>
+</xs:schema>

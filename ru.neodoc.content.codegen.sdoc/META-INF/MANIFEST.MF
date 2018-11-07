@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sdoc Source Code Generator
+Bundle-SymbolicName: ru.neodoc.content.codegen.sdoc;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ru.neodoc.content.codegen.sdoc.SdocCodegenPlugin
+Require-Bundle: org.eclipse.core.runtime,
+ ru.neodoc.content.codegen;bundle-version="1.0.0",
+ org.eclipse.swt;bundle-version="3.104.2",
+ org.eclipse.jface;bundle-version="3.11.1",
+ org.eclipse.uml2.uml;bundle-version="5.1.2",
+ ru.neodoc.content.modeller;bundle-version="1.1.0",
+ org.eclipse.ui;bundle-version="3.107.0",
+ org.eclipse.jdt.ui;bundle-version="3.11.2",
+ org.eclipse.jdt.core;bundle-version="3.11.2",
+ org.eclipse.core.resources;bundle-version="3.10.1",
+ org.eclipse.ui.workbench,
+ org.eclipse.ui.ide;bundle-version="3.11.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: ru.neodoc.content.codegen.sdoc,
+ ru.neodoc.content.codegen.sdoc.dialog,
+ ru.neodoc.content.codegen.sdoc.dialog.fields,
+ ru.neodoc.content.codegen.sdoc.generator,
+ ru.neodoc.content.codegen.sdoc.generator.java,
+ ru.neodoc.content.codegen.sdoc.generator.java.annotation,
+ ru.neodoc.content.codegen.sdoc.generator.java.writer,
+ ru.neodoc.content.codegen.sdoc.generator.javascript,
+ ru.neodoc.content.codegen.sdoc.preferences,
+ ru.neodoc.content.codegen.sdoc.wizard,
+ ru.neodoc.content.codegen.sdoc.wizard.pages,
+ ru.neodoc.content.codegen.sdoc.wizard.provider,
+ ru.neodoc.content.codegen.sdoc.wrap
+Bundle-Vendor: Neologica LLC
+Automatic-Module-Name: ru.neodoc.content.codegen.sdoc

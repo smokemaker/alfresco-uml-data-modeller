@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" identifier="starovoitenkov_sv_1504710789870_UI" name="starovoitenkov_sv_1504710789870_UI" metamodelNsURI="starovoitenkov_sv_1504710789870_UI">
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" identifier="starovoitenkov_sv_1504710789870.createGeneralization4CreationTool_1504710813832_Generalization_Edge" name="Generalization" hint="Generalization_Edge">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="/ru.neodoc.content.modeller/model/palette/p1_Semantic.elementtypesconfigurations#//@elementTypeConfigurations.0"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Generalization_Edge"/>
+  </elementTypeConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

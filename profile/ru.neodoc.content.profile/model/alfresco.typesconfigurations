@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="ASCII"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:stereotypematcher="http://www.eclipse.org/papyrus/uml/types/stereotypematcher/1.1" identifier="ru.neodoc.alfresco.assistants.elementTypes" name="alfresco" metamodelNsURI="http://www.eclipse.org/uml2/5.0.0/UML">
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.SimpleParameterwrapper" identifier="ru.neodoc.alfresco.assistants.SimpleParameterwrapper" name="SimpleParameter-wrapper" hint="UML::LiteralSpecification">
+    <iconEntry iconPath="/icons/full/obj16/LiteralSpecification.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::SimpleParameter-wrapper</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.LiteralSpecification"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.alfresco" identifier="ru.neodoc.alfresco.assistants.alfresco" name="alfresco" hint="UML::Model">
+    <iconEntry iconPath="/icons/full/obj16/Model.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::alfresco</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Model"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.archive" identifier="ru.neodoc.alfresco.assistants.archive" name="archive" hint="UML::Class">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::archive</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.aspect" identifier="ru.neodoc.alfresco.assistants.aspect" name="aspect" hint="UML::Class">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::aspect</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.association_UML__Association" identifier="ru.neodoc.alfresco.assistants.association_UML::Association" name="association" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::association</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.association_main_UML__Association" identifier="ru.neodoc.alfresco.assistants.association_main_UML::Association" name="association_main" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::association_main</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.association_optional_UML__Association" identifier="ru.neodoc.alfresco.assistants.association_optional_UML::Association" name="association_optional" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::association_optional</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.association_solid_UML__Association" identifier="ru.neodoc.alfresco.assistants.association_solid_UML::Association" name="association_solid" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::association_solid</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.association_solid_optional_UML__Association" identifier="ru.neodoc.alfresco.assistants.association_solid_optional_UML::Association" name="association_solid_optional" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::association_solid_optional</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.childassociation_UML__Association" identifier="ru.neodoc.alfresco.assistants.childassociation_UML::Association" name="child-association" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::child-association</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.class_main" identifier="ru.neodoc.alfresco.assistants.class_main" name="class_main" hint="UML::Class">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::class_main</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.class_optional" identifier="ru.neodoc.alfresco.assistants.class_optional" name="class_optional" hint="UML::Class">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::class_optional</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraint_main" identifier="ru.neodoc.alfresco.assistants.constraint_main" name="constraint_main" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constraint_main</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraint_optional" identifier="ru.neodoc.alfresco.assistants.constraint_optional" name="constraint_optional" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constraint_optional</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraintcustom" identifier="ru.neodoc.alfresco.assistants.constraintcustom" name="constraint-custom" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constraint-custom</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constrainted" identifier="ru.neodoc.alfresco.assistants.constrainted" name="constrainted" hint="UML::Dependency">
+    <iconEntry iconPath="/icons/full/obj16/Dependency.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constrainted</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constrainted_object" identifier="ru.neodoc.alfresco.assistants.constrainted_object" name="constrainted_object" hint="UML::NamedElement">
+    <iconEntry iconPath="/icons/full/obj16/NamedElement.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constrainted_object</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.NamedElement"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraintedinline" identifier="ru.neodoc.alfresco.assistants.constraintedinline" name="constrainted-inline" hint="UML::Dependency">
+    <iconEntry iconPath="/icons/full/obj16/Dependency.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constrainted-inline</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraintlength" identifier="ru.neodoc.alfresco.assistants.constraintlength" name="constraint-length" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constraint-length</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraintlist" identifier="ru.neodoc.alfresco.assistants.constraintlist" name="constraint-list" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constraint-list</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraintminmax" identifier="ru.neodoc.alfresco.assistants.constraintminmax" name="constraint-minmax" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constraint-minmax</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraintregex" identifier="ru.neodoc.alfresco.assistants.constraintregex" name="constraint-regex" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constraint-regex</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.constraintregistered" identifier="ru.neodoc.alfresco.assistants.constraintregistered" name="constraint-registered" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::constraint-registered</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.datatype" identifier="ru.neodoc.alfresco.assistants.datatype" name="data-type" hint="UML::PrimitiveType">
+    <iconEntry iconPath="/icons/full/obj16/PrimitiveType.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::data-type</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.PrimitiveType"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.encrypted" identifier="ru.neodoc.alfresco.assistants.encrypted" name="encrypted" hint="UML::Property">
+    <iconEntry iconPath="/icons/full/obj16/Property.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::encrypted</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Property"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.importNamespace_UML__PackageImport" identifier="ru.neodoc.alfresco.assistants.importNamespace_UML::PackageImport" name="importNamespace" hint="UML::PackageImport">
+    <iconEntry iconPath="/icons/full/obj16/PackageImport.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::importNamespace</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.PackageImport"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.index" identifier="ru.neodoc.alfresco.assistants.index" name="index" hint="UML::Property">
+    <iconEntry iconPath="/icons/full/obj16/Property.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::index</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Property"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.inherit" identifier="ru.neodoc.alfresco.assistants.inherit" name="inherit" hint="UML::Generalization">
+    <iconEntry iconPath="/icons/full/obj16/Generalization.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::inherit</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Generalization"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.inline" identifier="ru.neodoc.alfresco.assistants.inline" name="inline" hint="UML::Constraint">
+    <iconEntry iconPath="/icons/full/obj16/Constraint.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::inline</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Constraint"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.mandatory" identifier="ru.neodoc.alfresco.assistants.mandatory" name="mandatory" hint="UML::Property">
+    <iconEntry iconPath="/icons/full/obj16/Property.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::mandatory</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Property"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.mandatoryaspect_UML__Association" identifier="ru.neodoc.alfresco.assistants.mandatoryaspect_UML::Association" name="mandatory-aspect" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::mandatory-aspect</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.model" identifier="ru.neodoc.alfresco.assistants.model" name="model" hint="UML::Package">
+    <iconEntry iconPath="/icons/full/obj16/Package.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::model</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.namespace" identifier="ru.neodoc.alfresco.assistants.namespace" name="namespace" hint="UML::Package">
+    <iconEntry iconPath="/icons/full/obj16/Package.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::namespace</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.optional_UML__Association" identifier="ru.neodoc.alfresco.assistants.optional_UML::Association" name="optional" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::optional</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.package_main" identifier="ru.neodoc.alfresco.assistants.package_main" name="package_main" hint="UML::Package">
+    <iconEntry iconPath="/icons/full/obj16/Package.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::package_main</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Package"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.property_NamedElement" identifier="ru.neodoc.alfresco.assistants.property_NamedElement" name="property NamedElement" hint="UML::NamedElement">
+    <iconEntry iconPath="/icons/full/obj16/NamedElement.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::property</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.NamedElement"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.property_Property" identifier="ru.neodoc.alfresco.assistants.property_Property" name="property Property" hint="UML::Property">
+    <iconEntry iconPath="/icons/full/obj16/Property.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::property</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Property"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.property_main_NamedElement" identifier="ru.neodoc.alfresco.assistants.property_main_NamedElement" name="property_main NamedElement" hint="UML::NamedElement">
+    <iconEntry iconPath="/icons/full/obj16/NamedElement.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::property_main</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.NamedElement"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.property_main_Property" identifier="ru.neodoc.alfresco.assistants.property_main_Property" name="property_main Property" hint="UML::Property">
+    <iconEntry iconPath="/icons/full/obj16/Property.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::property_main</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Property"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.property_optional" identifier="ru.neodoc.alfresco.assistants.property_optional" name="property_optional" hint="UML::Property">
+    <iconEntry iconPath="/icons/full/obj16/Property.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::property_optional</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Property"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.propertyoverride_Dependency" identifier="ru.neodoc.alfresco.assistants.propertyoverride_Dependency" name="property-override Dependency" hint="UML::Dependency">
+    <iconEntry iconPath="/icons/full/obj16/Dependency.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::property-override</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.propertyoverride_NamedElement" identifier="ru.neodoc.alfresco.assistants.propertyoverride_NamedElement" name="property-override NamedElement" hint="UML::NamedElement">
+    <iconEntry iconPath="/icons/full/obj16/NamedElement.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::property-override</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.NamedElement"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.targetmandatory_UML__Association" identifier="ru.neodoc.alfresco.assistants.targetmandatory_UML::Association" name="target-mandatory" hint="UML::Association">
+    <iconEntry iconPath="/icons/full/obj16/Association.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::target-mandatory</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="ru.neodoc.alfresco.assistants.type" identifier="ru.neodoc.alfresco.assistants.type" name="type" hint="UML::Class">
+    <iconEntry iconPath="/icons/full/obj16/Class.gif" bundleId="org.eclipse.uml2.uml.edit"/>
+    <matcherConfiguration xsi:type="stereotypematcher:StereotypeApplicationMatcherConfiguration">
+      <stereotypesQualifiedNames>alfresco::type</stereotypesQualifiedNames>
+    </matcherConfiguration>
+    <specializedTypes xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="../../../plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="alfresco" identifier="ru.neodoc.alfresco.assistants.alfresco" target="ru.neodoc.alfresco.assistants.alfresco">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::alfresco" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="archive" identifier="ru.neodoc.alfresco.assistants.archive" target="ru.neodoc.alfresco.assistants.archive">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::archive" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="aspect" identifier="ru.neodoc.alfresco.assistants.aspect" target="ru.neodoc.alfresco.assistants.aspect">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::aspect" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="association" identifier="ru.neodoc.alfresco.assistants.association_UML::Association" target="ru.neodoc.alfresco.assistants.association_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::association" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="association_main" identifier="ru.neodoc.alfresco.assistants.association_main_UML::Association" target="ru.neodoc.alfresco.assistants.association_main_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::association_main" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="association_optional" identifier="ru.neodoc.alfresco.assistants.association_optional_UML::Association" target="ru.neodoc.alfresco.assistants.association_optional_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::association_optional" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="association_solid" identifier="ru.neodoc.alfresco.assistants.association_solid_UML::Association" target="ru.neodoc.alfresco.assistants.association_solid_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::association_solid" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="association_solid_optional" identifier="ru.neodoc.alfresco.assistants.association_solid_optional_UML::Association" target="ru.neodoc.alfresco.assistants.association_solid_optional_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::association_solid_optional" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="child-association" identifier="ru.neodoc.alfresco.assistants.child-association_UML::Association" target="ru.neodoc.alfresco.assistants.childassociation_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::child-association" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="class_main" identifier="ru.neodoc.alfresco.assistants.class_main" target="ru.neodoc.alfresco.assistants.class_main">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::class_main" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="class_optional" identifier="ru.neodoc.alfresco.assistants.class_optional" target="ru.neodoc.alfresco.assistants.class_optional">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::class_optional" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constraint-custom" identifier="ru.neodoc.alfresco.assistants.constraint-custom" target="ru.neodoc.alfresco.assistants.constraintcustom">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constraint-custom" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constraint-length" identifier="ru.neodoc.alfresco.assistants.constraint-length" target="ru.neodoc.alfresco.assistants.constraintlength">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constraint-length" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constraint-list" identifier="ru.neodoc.alfresco.assistants.constraint-list" target="ru.neodoc.alfresco.assistants.constraintlist">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constraint-list" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constraint-minmax" identifier="ru.neodoc.alfresco.assistants.constraint-minmax" target="ru.neodoc.alfresco.assistants.constraintminmax">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constraint-minmax" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constraint-regex" identifier="ru.neodoc.alfresco.assistants.constraint-regex" target="ru.neodoc.alfresco.assistants.constraintregex">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constraint-regex" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constraint-registered" identifier="ru.neodoc.alfresco.assistants.constraint-registered" target="ru.neodoc.alfresco.assistants.constraintregistered">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constraint-registered" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constraint_main" identifier="ru.neodoc.alfresco.assistants.constraint_main" target="ru.neodoc.alfresco.assistants.constraint_main">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constraint_main" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constraint_optional" identifier="ru.neodoc.alfresco.assistants.constraint_optional" target="ru.neodoc.alfresco.assistants.constraint_optional">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constraint_optional" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constrainted" identifier="ru.neodoc.alfresco.assistants.constrainted" target="ru.neodoc.alfresco.assistants.constrainted">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constrainted" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constrainted-inline" identifier="ru.neodoc.alfresco.assistants.constrainted-inline" target="ru.neodoc.alfresco.assistants.constraintedinline">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constrainted-inline" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="constrainted_object" identifier="ru.neodoc.alfresco.assistants.constrainted_object" target="ru.neodoc.alfresco.assistants.constrainted_object">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::constrainted_object" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="data-type" identifier="ru.neodoc.alfresco.assistants.data-type" target="ru.neodoc.alfresco.assistants.datatype">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::data-type" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="encrypted" identifier="ru.neodoc.alfresco.assistants.encrypted" target="ru.neodoc.alfresco.assistants.encrypted">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::encrypted" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="importNamespace" identifier="ru.neodoc.alfresco.assistants.importNamespace_UML::PackageImport" target="ru.neodoc.alfresco.assistants.importNamespace_UML__PackageImport">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::importNamespace" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="index" identifier="ru.neodoc.alfresco.assistants.index" target="ru.neodoc.alfresco.assistants.index">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::index" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="inherit" identifier="ru.neodoc.alfresco.assistants.inherit" target="ru.neodoc.alfresco.assistants.inherit">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::inherit" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="inline" identifier="ru.neodoc.alfresco.assistants.inline" target="ru.neodoc.alfresco.assistants.inline">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::inline" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="mandatory" identifier="ru.neodoc.alfresco.assistants.mandatory" target="ru.neodoc.alfresco.assistants.mandatory">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::mandatory" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="mandatory-aspect" identifier="ru.neodoc.alfresco.assistants.mandatory-aspect_UML::Association" target="ru.neodoc.alfresco.assistants.mandatoryaspect_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::mandatory-aspect" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="model" identifier="ru.neodoc.alfresco.assistants.model" target="ru.neodoc.alfresco.assistants.model">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::model" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="namespace" identifier="ru.neodoc.alfresco.assistants.namespace" target="ru.neodoc.alfresco.assistants.namespace">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::namespace" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="optional" identifier="ru.neodoc.alfresco.assistants.optional_UML::Association" target="ru.neodoc.alfresco.assistants.optional_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::optional" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="package_main" identifier="ru.neodoc.alfresco.assistants.package_main" target="ru.neodoc.alfresco.assistants.package_main">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::package_main" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="property" identifier="ru.neodoc.alfresco.assistants.property" target="ru.neodoc.alfresco.assistants.property_Property">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::property" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="property" identifier="ru.neodoc.alfresco.assistants.property" target="ru.neodoc.alfresco.assistants.property_NamedElement">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::property" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="property-override" identifier="ru.neodoc.alfresco.assistants.property-override" target="ru.neodoc.alfresco.assistants.propertyoverride_Dependency">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::property-override" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="property-override" identifier="ru.neodoc.alfresco.assistants.property-override" target="ru.neodoc.alfresco.assistants.propertyoverride_NamedElement">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::property-override" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="property_main" identifier="ru.neodoc.alfresco.assistants.property_main" target="ru.neodoc.alfresco.assistants.property_main_Property">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::property_main" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="property_main" identifier="ru.neodoc.alfresco.assistants.property_main" target="ru.neodoc.alfresco.assistants.property_main_NamedElement">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::property_main" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="property_optional" identifier="ru.neodoc.alfresco.assistants.property_optional" target="ru.neodoc.alfresco.assistants.property_optional">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::property_optional" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="SimpleParameter-wrapper" identifier="ru.neodoc.alfresco.assistants.simpleParameter-wrapper" target="ru.neodoc.alfresco.assistants.SimpleParameterwrapper">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::SimpleParameter-wrapper" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="target-mandatory" identifier="ru.neodoc.alfresco.assistants.target-mandatory_UML::Association" target="ru.neodoc.alfresco.assistants.targetmandatory_UML__Association">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::target-mandatory" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" description="type" identifier="ru.neodoc.alfresco.assistants.type" target="ru.neodoc.alfresco.assistants.type">
+    <stereotypesToApply stereotypeQualifiedName="alfresco::type" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

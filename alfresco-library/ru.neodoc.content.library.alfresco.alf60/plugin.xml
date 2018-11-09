@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <!--extension
+         point="org.eclipse.papyrus.uml.diagram.wizards.templates">
+      <template
+            di_file="templates/base/alf_6.0_base.di"
+            file="templates/base/alf_6.0_base.uml"
+            id="ru.neodoc.content.templates.alfresco.alf60.base"
+            language="org.eclipse.papyrus.infra.services.edit.TypeContext"
+            name="Alfresco 6.0 base model"
+            notation_file="templates/base/alf_6.0_base.notation">
+      </template>
+      <template
+            di_file="templates/full/alf_6.0_full.di"
+            file="templates/full/alf_6.0_full.uml"
+            id="ru.neodoc.content.templates.alfresco.alf60.full"
+            language="org.eclipse.papyrus.infra.services.edit.TypeContext"
+            name="Alfresco 6.0 full model"
+            notation_file="templates/full/alf_6.0_full.notation">
+      </template>
+   </extension-->
+   <extension
+         id="ru.neodoc.content.templates.alfresco.alf60.library"
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+      <library
+            iconpath="platform:/plugin/ru.neodoc.content.profile/icons/AlfrescoProfile.gif"
+            name="Alfresco 6.0 model library"
+            path="platform:/plugin/ru.neodoc.content.templates.alfresco.alf60/templates/full/alf_6.0_full.uml">
+      </library>
+   </extension>
+   <extension
+         point="ru.neodoc.content.extensionpoint.registeredModel">
+      <model
+            extensionPointType="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary"
+            wrappedExtensionId="ru.neodoc.content.templates.alfresco.alf60.library">
+      </model>
+   </extension>
+
+</plugin>

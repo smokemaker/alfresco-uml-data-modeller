@@ -1,0 +1,29 @@
+<jaxb:bindings
+    xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:inheritance="http://jaxb2-commons.dev.java.net/basic/inheritance"
+    jaxb:extensionBindingPrefixes="inheritance"
+    jaxb:version="1.0">
+ 
+    <!-- jaxb:bindings schemaLocation="schema.xsd" node="/xsd:schema" -->
+    <jaxb:bindings schemaLocation="modelSchema.xsd"  node="/xsd:schema">
+        <jaxb:bindings node="//xsd:complexType[@name='namedValue']/*/xsd:element[@name='value']">
+            <!-- inheritance:implements>java.lang.Cloneable</inheritance:implements>
+            <inheritance:implements>ru.neodoc.Test</inheritance:implements-->
+            <jaxb:javaType name="java.lang.String"
+                    parseMethod="ru.neodoc.jaxb.utils.CDataAdapter.parse"
+                    printMethod="ru.neodoc.jaxb.utils.CDataAdapter.print"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xsd:complexType[@name='namedValue']/*//xsd:element[@name='list']/*//xsd:element[@name='value']">
+            <!-- inheritance:implements>java.lang.Cloneable</inheritance:implements>
+            <inheritance:implements>ru.neodoc.Test</inheritance:implements-->
+            <jaxb:javaType name="java.lang.String"
+                    parseMethod="ru.neodoc.jaxb.utils.CDataAdapter.parse"
+                    printMethod="ru.neodoc.jaxb.utils.CDataAdapter.print"/>
+        </jaxb:bindings>
+        <!-- jaxb:bindings node="xsd:element[@name='issueJIIB38']">
+            <jaxb:class/>
+            <inheritance:implements>java.lang.Cloneable</inheritance:implements>
+        </jaxb:bindings-->
+    </jaxb:bindings>
+</jaxb:bindings>

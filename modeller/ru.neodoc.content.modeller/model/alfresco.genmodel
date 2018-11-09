@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/ru.neodoc.content.modeller/src" editDirectory="/ru.neodoc.content.modeller.edit/src"
+    editorDirectory="/ru.neodoc.content.modeller.editor/src" modelPluginID="ru.neodoc.content.modeller"
+    modelName="Alfresco" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>alfresco.ecore</foreignModel>
+  <genPackages prefix="Alfresco" basePackage="ru.neodoc.content.ecore.alfresco.model"
+      disposableProviderFactory="true" contentTypeIdentifier="ru.neodoc.modeller.alfresco"
+      ecorePackage="alfresco.ecore#/">
+    <genClasses ecoreClass="alfresco.ecore#//Alfresco">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference alfresco.ecore#//Alfresco/dictionaries"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alfresco.ecore#//Alfresco/defaultCss"/>
+    </genClasses>
+    <nestedGenPackages prefix="Dictionaries" basePackage="ru.neodoc.content.ecore.alfresco.model.alfresco"
+        disposableProviderFactory="true" ecorePackage="alfresco.ecore#//dictionaries">
+      <genClasses ecoreClass="alfresco.ecore#//dictionaries/Namespace"/>
+      <genClasses ecoreClass="alfresco.ecore#//dictionaries/Dictionary">
+        <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alfresco.ecore#//dictionaries/Dictionary/location"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alfresco.ecore#//dictionaries/Dictionary/isReadOnly"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference alfresco.ecore#//dictionaries/Dictionary/namespaces"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alfresco.ecore#//dictionaries/Dictionary/Name"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference alfresco.ecore#//dictionaries/Dictionary/imports"/>
+      </genClasses>
+      <genClasses ecoreClass="alfresco.ecore#//dictionaries/Dictionaries">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference alfresco.ecore#//dictionaries/Dictionaries/dictionaries"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="alfresco.ecore#//dictionaries/BaseNamespace">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alfresco.ecore#//dictionaries/BaseNamespace/alias"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alfresco.ecore#//dictionaries/BaseNamespace/url"/>
+      </genClasses>
+      <genClasses ecoreClass="alfresco.ecore#//dictionaries/Import">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alfresco.ecore#//dictionaries/Import/isUndefined"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alfresco.ecore#//dictionaries/Import/isIgnored"/>
+      </genClasses>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

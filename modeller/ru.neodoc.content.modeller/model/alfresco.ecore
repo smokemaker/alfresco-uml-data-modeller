@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="alfresco" nsURI="http://neodoc.neologica.ru/tools/alfresco/modeller"
+    nsPrefix="ndalf">
+  <eClassifiers xsi:type="ecore:EClass" name="Alfresco">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dictionaries" lowerBound="1"
+        eType="#//dictionaries/Dictionaries" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="defaultCss" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eSubpackages name="dictionaries" nsURI="http://neodoc.neologica.ru/tools/alfresco/modeller/dictionaries"
+      nsPrefix="ndad">
+    <eClassifiers xsi:type="ecore:EClass" name="Namespace" eSuperTypes="#//dictionaries/BaseNamespace"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Dictionary">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" unique="false"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+          unsettable="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isReadOnly" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+          defaultValueLiteral="false"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="namespaces" lowerBound="1"
+          upperBound="-1" eType="#//dictionaries/Namespace" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="imports" upperBound="-1"
+          eType="#//dictionaries/Import" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Dictionaries">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="dictionaries" upperBound="-1"
+          eType="#//dictionaries/Dictionary" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="BaseNamespace" abstract="true">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="alias" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="url" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Import" eSuperTypes="#//dictionaries/BaseNamespace">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isUndefined" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+          defaultValueLiteral="false">
+        <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details key="name" value="isUndefined"/>
+          <details key="namespace" value=""/>
+        </eAnnotations>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="isIgnored" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
+          defaultValueLiteral="false"/>
+    </eClassifiers>
+  </eSubpackages>
+</ecore:EPackage>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ASCII"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="_z28l8IGuEee5os0lkl-ENA" identifier="palette1_Semantic" name="palette1_Semantic" metamodelNsURI="palette1_Semantic">
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_pBFOsHn7Eeip2Mcl8Car0Q" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_semantic_common" name="Class_Common_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ComponentNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_z28l8YGuEee5os0lkl-ENA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_semantic_aspect" name="Class_Aspect_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ComponentNestedClassifierLabel"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="#_pBFOsHn7Eeip2Mcl8Car0Q"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_z28l8oGuEee5os0lkl-ENA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_semantic_type" name="Class_Type_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ComponentNestedClassifierLabel"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="#_pBFOsHn7Eeip2Mcl8Car0Q"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_lr3kYHoREeip2Mcl8Car0Q" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.association_semantic_common" name="Association_Common">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AssociationSharedDirected_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="#_hgBz4H7kEeiTValwQJNcXA"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_G6-YEIHREee75O184I4nPg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_semantic_peer" name="Association_Peer_Semantic" specializedTypes="_lr3kYHoREeip2Mcl8Car0Q"/>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_pUbuwoKFEee75O184I4nPg" description="#{stereotype=alfresco::association-child}" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.association_semantic_child" name="Association_Child_Semantic" specializedTypes="_lr3kYHoREeip2Mcl8Car0Q"/>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_pUbuw4KFEee75O184I4nPg" description="#{stereotype=alfresco::mandatory-aspect}" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.association_semantic_ma" name="Association_MA_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="#_lr3kYHoREeip2Mcl8Car0Q"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AssociationSharedDirected_Edge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_XveGUINNEeeHQa6Yo_0abA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.property_semantic_property" name="Property_Property_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Property_ComponentAttributeLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_aWzIsJMWEeerGtGffIUV0w" description="#{stereotype=alfresco::inherit}" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.generalization_semantic" name="Generalization_Generalization_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Generalization_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="#_hgBz4H7kEeiTValwQJNcXA"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_py7jAFKWEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_semantic_length" name="Constraint_Length_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_hp_ZEFKuEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_semantic_list" name="Constraint_List_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_iG5-kFKuEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_semantic_minmax" name="Constraint_Minmax_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_ih6fkFKuEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_semantic_regex" name="Constraint_Regex_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_i8dtkFKuEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_semantic_custom" name="Constraint_Custom_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_HSGK4GA5EeiN8syFhu0XAQ" description="#{stereotype=alfresco::constrainted}" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.dependency_constrainted" name="Dependency_Constrainted_Semantic">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Dependency_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="#_hgBz4H7kEeiTValwQJNcXA"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_IDBmoGA7EeiN8syFhu0XAQ" description="#{stereotype=alfresco::constrainted-inline}" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.dependency_constraintedInline" name="Dependency_Constrainted_Inline_Semantic">
+    <editHelperAdviceConfiguration xsi:type="elementtypesconfigurations:EditHelperAdviceConfiguration" xmi:id="_7AXLEIqLEei54_ceSLGuBw" description="ru.neodoc.content.modeller.palette.helper.advice.ConstraintedInlineEditHelperAdvice" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.ConstraintedInlineEditHelperAdvice"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Dependency_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="#_hgBz4H7kEeiTValwQJNcXA"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_nbDaoHPdEei6yfXPHWj2Kw" description="#{stereotype=alfresco::property-override}" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.dependency_propertyoverride" name="Dependency_PropertyOverride_Semantic">
+    <editHelperAdviceConfiguration xsi:type="elementtypesconfigurations:EditHelperAdviceConfiguration" xmi:id="_e8WKoH7uEeiTValwQJNcXA" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.PropertyOverrideEditHelperAdvice"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Dependency_Edge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_hgBz4H7kEeiTValwQJNcXA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.relation_semantic_common" name="Common_Relation">
+    <editHelperAdviceConfiguration xsi:type="elementtypesconfigurations:EditHelperAdviceConfiguration" xmi:id="_DsiggH7lEeiTValwQJNcXA" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.CommonRelationEditHelperAdvice"/>
+  </elementTypeConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_z28l84GuEee5os0lkl-ENA" description="alfresco::aspect" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709552989_1502709610526" target="_z28l8YGuEee5os0lkl-ENA">
+    <stereotypesToApply xmi:id="_z28l9IGuEee5os0lkl-ENA" stereotypeQualifiedName="alfresco::aspect" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_z28l9YGuEee5os0lkl-ENA" description="alfresco::type" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709555471_1502709633420" target="_z28l8oGuEee5os0lkl-ENA">
+    <stereotypesToApply xmi:id="_z28l9oGuEee5os0lkl-ENA" stereotypeQualifiedName="alfresco::type" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_G6-YEYHREee75O184I4nPg" description="alfresco::association" identifier="starovoitenkov_sv_1502811561339.clazz.tool.association_1502811578257_1502811590333" target="_G6-YEIHREee75O184I4nPg">
+    <stereotypesToApply xmi:id="_G6-YEoHREee75O184I4nPg" stereotypeQualifiedName="alfresco::association">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_pUbux4KFEee75O184I4nPg" description="alfresco::child-association" identifier="starovoitenkov_sv_1502811034211.clazz.tool.associationshareddirected_1502811110754_1502811175455" target="_pUbuwoKFEee75O184I4nPg">
+    <stereotypesToApply xmi:id="_pUbuyIKFEee75O184I4nPg" stereotypeQualifiedName="alfresco::child-association">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_pUbuyYKFEee75O184I4nPg" description="alfresco::mandatory-aspect" identifier="starovoitenkov_sv_1502811034211.clazz.tool.associationshareddirected_1502811124506_1502811236409" target="_pUbuw4KFEee75O184I4nPg">
+    <stereotypesToApply xmi:id="_pUbuyoKFEee75O184I4nPg" stereotypeQualifiedName="alfresco::mandatory-aspect">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_7KrOcJMWEeerGtGffIUV0w" description="alfresco::inherit" identifier="starovoitenkov_sv_1502811034211.clazz.tool.generalization_1502811110754_1502811175455" target="_aWzIsJMWEeerGtGffIUV0w">
+    <stereotypesToApply xmi:id="_7KrOcZMWEeerGtGffIUV0w" stereotypeQualifiedName="alfresco::inherit">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_aT7o8FKXEeiJD8QJVNKMSg" description="alfresco::constraint-length" identifier="id_stereotype_apply_alfresco_constraint_length" target="_py7jAFKWEeiJD8QJVNKMSg">
+    <stereotypesToApply xmi:id="_CDtw4FKYEeiJD8QJVNKMSg" stereotypeQualifiedName="alfresco::constraint-length" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_012J8FKuEeiJD8QJVNKMSg" description="alfresco::constraint-list" identifier="id_stereotype_apply_alfresco_constraint_list" target="_hp_ZEFKuEeiJD8QJVNKMSg">
+    <stereotypesToApply xmi:id="_012J8VKuEeiJD8QJVNKMSg" stereotypeQualifiedName="alfresco::constraint-list" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_1lI44FKuEeiJD8QJVNKMSg" description="alfresco::constraint-minmax" identifier="id_stereotype_apply_alfresco_constraint_minmax" target="_iG5-kFKuEeiJD8QJVNKMSg">
+    <stereotypesToApply xmi:id="_1lI44VKuEeiJD8QJVNKMSg" stereotypeQualifiedName="alfresco::constraint-minmax" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_1-oW8FKuEeiJD8QJVNKMSg" description="alfresco::constraint-regex" identifier="id_stereotype_apply_alfresco_constraint_regex" target="_ih6fkFKuEeiJD8QJVNKMSg">
+    <stereotypesToApply xmi:id="_1-oW8VKuEeiJD8QJVNKMSg" stereotypeQualifiedName="alfresco::constraint-regex" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_2TE88FKuEeiJD8QJVNKMSg" description="alfresco::constraint-custom" identifier="id_stereotype_apply_alfresco_constraint_custom" target="_i8dtkFKuEeiJD8QJVNKMSg">
+    <stereotypesToApply xmi:id="_2TE88VKuEeiJD8QJVNKMSg" stereotypeQualifiedName="alfresco::constraint-custom" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_aDU1QGA5EeiN8syFhu0XAQ" description="alfresco::constrainted" identifier="id_stereotype_apply_alfresco_constrainted" target="_HSGK4GA5EeiN8syFhu0XAQ">
+    <stereotypesToApply xmi:id="_zUD5sGA5EeiN8syFhu0XAQ" stereotypeQualifiedName="alfresco::constrainted">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_UIVLkGA7EeiN8syFhu0XAQ" description="alfresco::constrainted-inline" identifier="id_stereotype_apply_alfresco_constrainted_inline" target="_IDBmoGA7EeiN8syFhu0XAQ">
+    <stereotypesToApply xmi:id="_n9QHkGA7EeiN8syFhu0XAQ" stereotypeQualifiedName="alfresco::constrainted-inline">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_01RkEHPdEei6yfXPHWj2Kw" description="alfresco::property-override" identifier="id_stereotype_apply_alfresco_property_override" target="_nbDaoHPdEei6yfXPHWj2Kw">
+    <stereotypesToApply xmi:id="_AhproHPeEei6yfXPHWj2Kw" stereotypeQualifiedName="alfresco::property-override">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_z28l84GuEee5os0lkl-ENA" description="alfresco::property" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.property_property" target="_XveGUINNEeeHQa6Yo_0abA">
+    <stereotypesToApply xmi:id="_28P18INOEeeHQa6Yo_0abA" stereotypeQualifiedName="alfresco::property" updateName="true">
+      <requiredProfiles>alfresco</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_VP9yoHoREeip2Mcl8Car0Q" identifier="ru.neodoc.content.modeller.palette.helper.advice.ClearNavigableEditHelperAdvice" target="_lr3kYHoREeip2Mcl8Car0Q" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.ClearNavigableEditHelperAdvice"/>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_4gzFAHn7Eeip2Mcl8Car0Q" description="" identifier="ru.neodoc.content.modeller.palette.helper.advice.CommonClassEditHelperAdvice" target="_pBFOsHn7Eeip2Mcl8Car0Q" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.CommonClassEditHelperAdvice"/>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_8s690HoUEeip2Mcl8Car0Q" identifier="ru.neodoc.content.modeller.palette.helper.advice.CleanSharedEditHelperAdvice" target="_G6-YEIHREee75O184I4nPg" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.CleanSharedEditHelperAdvice"/>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_pH5dwIQpEeeWpdR5zwkFlA" identifier="ru.neodoc.content.modeller.palette.helper.advice.AssociationSetNameEditHelperAdvice_peer" target="_G6-YEIHREee75O184I4nPg" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.AssociationSetNameEditHelperAdvice"/>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_plMdwIQpEeeWpdR5zwkFlA" identifier="ru.neodoc.content.modeller.palette.helper.advice.ChildAssociationSetNameEditHelperAdvice_child" target="_pUbuwoKFEee75O184I4nPg" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.ChildAssociationSetNameEditHelperAdvice"/>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_qOOzsIQpEeeWpdR5zwkFlA" identifier="ru.neodoc.content.modeller.palette.helper.advice.MandatoryAspectSetNameEditHelperAdvice_ma" target="_pUbuw4KFEee75O184I4nPg" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.MandatoryAspectSetNameEditHelperAdvice"/>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_DDyH0IUOEei54_ceSLGuBw" identifier="ru.neodoc.content.modeller.palette.helper.advice.PropertyOverrideSetNameEditHelperAdvice_po" target="_nbDaoHPdEei6yfXPHWj2Kw" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.PropertyOverrideSetNameEditHelperAdvice"/>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_PkhwUHlBEei6yfXPHWj2Kw" identifier="ru.neodoc.content.modeller.palette.helper.advice.ConstraintedSetNameEditHelperAdvice_constrainted" target="_HSGK4GA5EeiN8syFhu0XAQ" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.ConstraintedSetNameEditHelperAdvice"/>
+  <adviceBindingsConfigurations xsi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_jMEEsHu_Eeip2Mcl8Car0Q" identifier="ru.neodoc.content.modeller.palette.helper.advice.CommonAssociationEditHelperAdvice" target="_lr3kYHoREeip2Mcl8Car0Q" editHelperAdviceClassName="ru.neodoc.content.modeller.palette.helper.advice.CommonAssociationEditHelperAdvice"/>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

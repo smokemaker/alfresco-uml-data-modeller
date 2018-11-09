@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="ru.neodoc.content.extensionpoint.registeredModel" name="Registered Alfresco model" schema="schema/ru.neodoc.content.extensionpoint.registeredModel.exsd"/>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://Alfresco_PROFILES/"
+            target="platform:/plugin/ru.neodoc.content.profile/profile/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="UML profile for Alfresco"
+            iconpath="icons/AlfrescoProfile.gif"
+            name="alfresco"
+            path="pathmap://Alfresco_PROFILES/alfresco.profile.uml"
+            provider="Neologica LLC">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.services.labelprovider.labelProvider">
+      <labelProvider
+            priority="10"
+            provider="ru.neodoc.content.profile.alfresco.ui.AlfrescoLabelProvider">
+      </labelProvider>
+   </extension>
+
+</plugin>

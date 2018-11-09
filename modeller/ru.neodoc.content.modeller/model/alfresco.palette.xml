@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<paletteDefinition>
+    <content>
+        <drawer iconpath="platform:/plugin/ru.neodoc.content.modeller/icons/full/obj16/Alfresco.png" id="Alfresco_Drawer" name="Alfresco">
+            <aspectTool description="Create a Type"
+                iconpath="platform:/plugin/ru.neodoc.content.modeller/icons/profile/Type.gif"
+                id="clazz.tool.class_ALFRESCO_TYPE" name="Type" refToolId="clazz.tool.class">
+                <postAction id="org.eclipse.papyrus.applystereotypeactionprovider">
+                    <stereotypesToApply>
+                        <stereotype stereotypeName="alfresco::type" />
+                    </stereotypesToApply>
+                </postAction>
+            </aspectTool>
+        	<aspectTool description="Create an Aspect"
+                iconpath="platform:/plugin/ru.neodoc.content.modeller/icons/profile/Aspect.png"
+                id="clazz.tool.class_ALFRESCO_ASPECT" name="Aspect" refToolId="clazz.tool.class">
+                <postAction id="org.eclipse.papyrus.applystereotypeactionprovider">
+                    <stereotypesToApply>
+                        <stereotype stereotypeName="alfresco::aspect" />
+                    </stereotypesToApply>
+                </postAction>
+            </aspectTool>
+        	<aspectTool description="Create a Peer Association"
+                iconpath="platform:/plugin/ru.neodoc.content.modeller/icons/profile/PeerAssociation.gif"
+                id="clazz.tool.class_ALFRESCO_ASPECT" name="Peer Association" refToolId="clazz.tool.association">
+                <postAction id="org.eclipse.papyrus.applystereotypeactionprovider">
+                    <stereotypesToApply>
+                        <stereotype stereotypeName="alfresco::association" />
+                    </stereotypesToApply>
+                </postAction>
+                <postAction id="org.eclipse.papyrus.postaction.associationendactionprovider">
+                	<associationEnd index="0" name="source">
+                		<owner value="Association" />
+                	</associationEnd>
+                </postAction>
+            </aspectTool>
+        	<aspectTool description="Create a Child Association"
+                iconpath="platform:/plugin/ru.neodoc.content.modeller/icons/profile/ChildAssociation.gif"
+                id="clazz.tool.class_ALFRESCO_ASPECT" name="Child Association" refToolId="clazz.tool.association">
+                <postAction id="org.eclipse.papyrus.applystereotypeactionprovider">
+                    <stereotypesToApply>
+                        <stereotype stereotypeName="alfresco::child-association" />
+                    </stereotypesToApply>
+                </postAction>
+                <postAction id="org.eclipse.papyrus.postaction.associationendactionprovider">
+                	<associationEnd index="0" name="source">
+                		<aggregation value="shared" />
+                		<owner value="Association" />
+                	</associationEnd>
+                </postAction>
+            </aspectTool>
+        	<aspectTool description="Create a Mandatory Aspect"
+                iconpath="platform:/plugin/ru.neodoc.content.modeller/icons/profile/MandatoryAspect.gif"
+                id="clazz.tool.class_ALFRESCO_ASPECT" name="Mandatory Aspect" refToolId="clazz.tool.association">
+                <postAction id="org.eclipse.papyrus.applystereotypeactionprovider">
+                    <stereotypesToApply>
+                        <stereotype stereotypeName="alfresco::mandatory-aspect" />
+                    </stereotypesToApply>
+                </postAction>
+                <postAction id="org.eclipse.papyrus.postaction.associationendactionprovider">
+                	<associationEnd index="0" name="source">
+                		<aggregation value="shared" />
+                		<owner value="Association" />
+                	</associationEnd>
+                </postAction>
+            </aspectTool>
+        	<aspectTool description="Create a Property"
+                iconpath="platform:/plugin/ru.neodoc.content.modeller/icons/profile/Property.gif"
+                id="clazz.tool.class_ALFRESCO_ASPECT" name="Property" refToolId="clazz.tool.property">
+                <postAction id="org.eclipse.papyrus.applystereotypeactionprovider">
+                    <stereotypesToApply>
+                        <stereotype stereotypeName="alfresco::property" />
+                    </stereotypesToApply>
+                </postAction>
+            </aspectTool>
+		</drawer>
+    </content>
+</paletteDefinition> 

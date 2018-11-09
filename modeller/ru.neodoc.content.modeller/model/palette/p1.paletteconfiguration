@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="starovoitenkov_sv_1504710789870" label="p1" description="">
+  <drawerConfigurations id="Default_1504710789870" label="Default">
+    <ownedConfigurations xsi:type="paletteconfiguration:ToolConfiguration" id="createGeneralization4CreationTool_1504710813832" label="Generalization" description="Create a generalization" kind="ConnectionTool">
+      <icon pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Generalization.gif"/>
+      <elementDescriptors>
+        <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="file:/D:/projects/neodoc/tools/eclipse/oxygen/_ws/.metadata/.plugins/org.eclipse.papyrus.infra.gmfdiag.common/starovoitenkov_sv_1504710789870_UI.elementtypesconfigurations#__RjZsZMVEeerGtGffIUV0w"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+</paletteconfiguration:PaletteConfiguration>

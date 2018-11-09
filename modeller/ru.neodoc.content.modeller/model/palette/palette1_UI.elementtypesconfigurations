@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ASCII"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="_heqJoID2EeeCz7NdWA5edg" identifier="palette1_UI" name="palette1_UI" metamodelNsURI="palette1_UI">
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJoYD2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709552989_Class_ComponentNestedClassifierLabel" name="Aspect_Class_ComponentNestedClassifierLabel" hint="Class_ComponentNestedClassifierLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ComponentNestedClassifierLabel"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_pBFOsHn7Eeip2Mcl8Car0Q"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8YGuEee5os0lkl-ENA"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJooD2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709552989_Class_InterfaceNestedClassifierLabel" name="Aspect_Class_InterfaceNestedClassifierLabel" hint="Class_InterfaceNestedClassifierLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8YGuEee5os0lkl-ENA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_InterfaceNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJo4D2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709552989_Class_Shape_CN" name="Aspect_Class_Shape_CN" hint="Class_Shape_CN">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8YGuEee5os0lkl-ENA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_Shape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJpID2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709552989_Class_ClassNestedClassifierLabel" name="Aspect_Class_ClassNestedClassifierLabel" hint="Class_ClassNestedClassifierLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8YGuEee5os0lkl-ENA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ClassNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJpYD2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709552989_Class_Shape" name="Aspect_Class_Shape" hint="Class_Shape">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8YGuEee5os0lkl-ENA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_Shape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJpoD2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709555471_Class_ComponentNestedClassifierLabel" name="Type_Class_ComponentNestedClassifierLabel" hint="Class_ComponentNestedClassifierLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ComponentNestedClassifierLabel"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_pBFOsHn7Eeip2Mcl8Car0Q"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8oGuEee5os0lkl-ENA"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJp4D2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709555471_Class_InterfaceNestedClassifierLabel" name="Type_Class_InterfaceNestedClassifierLabel" hint="Class_InterfaceNestedClassifierLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8oGuEee5os0lkl-ENA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_InterfaceNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJqID2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709555471_Class_Shape_CN" name="Type_Class_Shape_CN" hint="Class_Shape_CN">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8oGuEee5os0lkl-ENA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_Shape_CN"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJqYD2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709555471_Class_ClassNestedClassifierLabel" name="Type_Class_ClassNestedClassifierLabel" hint="Class_ClassNestedClassifierLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8oGuEee5os0lkl-ENA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_ClassNestedClassifierLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_heqJqoD2EeeCz7NdWA5edg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.class_1502709555471_Class_Shape" name="Type_Class_Shape" hint="Class_Shape">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_z28l8oGuEee5os0lkl-ENA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_Shape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_1Elv4IHREee75O184I4nPg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.association_1502811578257_Association_Edge" name="Peer_Association_Edge" hint="Association_Edge">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AssociationSharedDirected_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_lr3kYHoREeip2Mcl8Car0Q"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_G6-YEIHREee75O184I4nPg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_hHjXcoKGEee75O184I4nPg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.association_1502811110754_Association_Edge" name="Child_Association_Edge" hint="Association_Edge">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AssociationSharedDirected_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_lr3kYHoREeip2Mcl8Car0Q"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_pUbuwoKFEee75O184I4nPg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_hHjXc4KGEee75O184I4nPg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.association_1502811124506_Association_Edge" name="MA_Association_Edge" hint="Association_Edge">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AssociationSharedDirected_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_lr3kYHoREeip2Mcl8Car0Q"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_pUbuw4KFEee75O184I4nPg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_pK6CcINNEeeHQa6Yo_0abA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.property_Property_ComponentAttributeLabel" name="Property_Property_ComponentAttributeLabel" hint="Property_ComponentAttributeLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_XveGUINNEeeHQa6Yo_0abA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Property_ComponentAttributeLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_6JlxIINNEeeHQa6Yo_0abA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.property_Property_SignalAttributeLabel" name="Property_Property_SignalAttributeLabel" hint="Property_SignalAttributeLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_XveGUINNEeeHQa6Yo_0abA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Property_SignalAttributeLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_MNgCgINOEeeHQa6Yo_0abA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.property_Property_InterfaceAttributeLabel" name="Property_Property_InterfaceAttributeLabel" hint="Property_InterfaceAttributeLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_XveGUINNEeeHQa6Yo_0abA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Property_InterfaceAttributeLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_TNWwkINOEeeHQa6Yo_0abA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.property_Property_ClassAttributeLabel" name="Property_Property_ClassAttributeLabel" hint="Property_ClassAttributeLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_XveGUINNEeeHQa6Yo_0abA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Property_ClassAttributeLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_UwPfoINOEeeHQa6Yo_0abA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.property_Property_DataTypeAttributeLabel" name="Property_Property_DataTypeAttributeLabel" hint="Property_DataTypeAttributeLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_XveGUINNEeeHQa6Yo_0abA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Property_DataTypeAttributeLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_U9q3oINOEeeHQa6Yo_0abA" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.property_Property_PrimitiveTypeAttributeLabel" name="Property_Property_PrimitiveTypeAttributeLabel" hint="Property_PrimitiveTypeAttributeLabel">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_XveGUINNEeeHQa6Yo_0abA"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Property_PrimitiveTypeAttributeLabel"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_RLv48JMXEeerGtGffIUV0w" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.generalization_1502811124506_generalization" name="Generalization_Generalization_Edge" hint="Generalization_Edge">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Generalization_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_aWzIsJMWEeerGtGffIUV0w"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_cWruYFKYEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_length_shape" name="Constraint_Length_Shape" hint="Constraint_PackagedElementShape">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_py7jAFKWEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_3ugbIFKYEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_length_shape_cn" name="Constraint_Length_Shape_CN" hint="Constraint_PackagedElementShape_CN">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_py7jAFKWEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_skT8IFKvEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_list_shape" name="Constraint_List_Shape" hint="Constraint_PackagedElementShape">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_hp_ZEFKuEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_5fdj8FKvEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_list_shape_cn" name="Constraint_List_Shape_CN" hint="Constraint_PackagedElementShape_CN">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_hp_ZEFKuEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_M-Gt8FKwEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_minmax_shape" name="Constraint_Minmax_Shape" hint="Constraint_PackagedElementShape">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_iG5-kFKuEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_M-Gt8VKwEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_minmax_shape_cn" name="Constraint_Minmax_Shape_CN" hint="Constraint_PackagedElementShape_CN">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_iG5-kFKuEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_NOAyMFKwEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_regex_shape" name="Constraint_Regex_Shape" hint="Constraint_PackagedElementShape">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_ih6fkFKuEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_NOAyMVKwEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_regex_shape_cn" name="Constraint_Regex_Shape_CN" hint="Constraint_PackagedElementShape_CN">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_ih6fkFKuEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_NiTAIFKwEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_custom_shape" name="Constraint_Custom_Shape" hint="Constraint_PackagedElementShape">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_i8dtkFKuEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_NiTAIVKwEeiJD8QJVNKMSg" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.constraint_custom_shape_cn" name="Constraint_Custom_Shape_CN" hint="Constraint_PackagedElementShape_CN">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_i8dtkFKuEeiJD8QJVNKMSg"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_FJecEGA6EeiN8syFhu0XAQ" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.dependency_1502811110754_Dependency_Edge" name="Constrainted_Dependency_Edge" hint="Dependency_Edge">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Dependency_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_HSGK4GA5EeiN8syFhu0XAQ"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_zKQLgGA7EeiN8syFhu0XAQ" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.dependency_1_1502811110754_Dependency_Edge" name="Constrainted_Inline_Dependency_Edge" hint="Dependency_Edge">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Dependency_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_IDBmoGA7EeiN8syFhu0XAQ"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_LxBuIHPeEei6yfXPHWj2Kw" identifier="ru.neodoc.content.modeller.alfresco.palette.clazz.tool.dependency_3_1502811110754_Dependency_Edge" name="PropertyOverride_Dependency_Edge" hint="Dependency_Edge">
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../../../../plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Dependency_Edge"/>
+    <specializedTypes xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="palette1_Semantic.elementtypesconfigurations#_nbDaoHPdEei6yfXPHWj2Kw"/>
+  </elementTypeConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>

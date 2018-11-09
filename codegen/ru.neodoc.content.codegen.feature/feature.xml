@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ru.neodoc.content.codegen.feature"
+      label="Neodoc Alfresco Code Generation Feature"
+      version="2.0.0.qualifier"
+      provider-name="Neologica">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="ru.neodoc.content.modeller" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.papyrus.views.modelexplorer" version="3.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.uml2.uml" version="5.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.eclipse.uml2.common.edit" version="2.4.0" match="greaterOrEqual"/>
+      <import plugin="ru.neodoc.content.utils" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="ru.neodoc.content.profile" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="ru.neodoc.eclipse.commons" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="ru.neodoc.content.codegen" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.swt" version="3.107.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.14.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.109.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.ui" version="3.14.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.14.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.13.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.workbench"/>
+      <import plugin="org.eclipse.ui.ide" version="3.14.0" match="greaterOrEqual"/>
+      <import feature="ru.neodoc.content.modeller.feature" version="1.1.0" match="greaterOrEqual"/>
+      <import feature="ru.neodoc.content.profile.feature" version="2.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="ru.neodoc.content.codegen"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ru.neodoc.content.codegen.sdoc2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

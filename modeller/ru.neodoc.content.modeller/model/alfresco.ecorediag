@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_5QNAUIIQEeO6yZap5BYyWQ" type="EcoreTools" name="alfresco.ecorediag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_5QpsQIIQEeO6yZap5BYyWQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_5Qy2MIIQEeO6yZap5BYyWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_5Qy2MYIQEeO6yZap5BYyWQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_-WuoYD0UEeSpD-KJNfG75g" type="2001">
+        <element xmi:type="ecore:EAttribute" href="alfresco.ecore#//Alfresco/defaultCss"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-WuoYT0UEeSpD-KJNfG75g"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5Qy2MoIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5Qy2M4IQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5Qy2NIIQEeO6yZap5BYyWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5Qy2NYIQEeO6yZap5BYyWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5Qy2NoIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5Qy2N4IQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5Qy2OIIQEeO6yZap5BYyWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5QpsQYIQEeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="alfresco.ecore#//Alfresco"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5QpsQoIQEeO6yZap5BYyWQ" x="25" y="100"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_5Qy2OYIQEeO6yZap5BYyWQ" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_5Qy2PYIQEeO6yZap5BYyWQ" type="4006"/>
+    <children xmi:type="notation:Node" xmi:id="_5Q8nMIIQEeO6yZap5BYyWQ" type="5003">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_5Q8nMYIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5Q8nMoIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5Q8nM4IQEeO6yZap5BYyWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5Qy2OoIQEeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10" fillColor="13150135" lineColor="4210752"/>
+    <styles xmi:type="notation:MultiDiagramLinkStyle" xmi:id="_5Qy2O4IQEeO6yZap5BYyWQ"/>
+    <element xmi:type="ecore:EPackage" href="alfresco.ecore#//dictionaries"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Qy2PIIQEeO6yZap5BYyWQ" x="162"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9Q848IIQEeO6yZap5BYyWQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9RPz4IIQEeO6yZap5BYyWQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9RPz4YIQEeO6yZap5BYyWQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_9Q8484IQEeO6yZap5BYyWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_9Q849IIQEeO6yZap5BYyWQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_qEOv8IIREeO6yZap5BYyWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="alfresco.ecore#//dictionaries/Import/isUndefined"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qEOv8YIREeO6yZap5BYyWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_wzr00PCOEeOhRenfzGu01Q" type="2001">
+        <element xmi:type="ecore:EAttribute" href="alfresco.ecore#//dictionaries/Import/isIgnored"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wzr00fCOEeOhRenfzGu01Q"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_9Q849YIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9Q849oIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9Q8494IQEeO6yZap5BYyWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_9Q84-IIQEeO6yZap5BYyWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_9Q84-YIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9Q84-oIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9Q84-4IQEeO6yZap5BYyWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_9Q848YIQEeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="alfresco.ecore#//dictionaries/Import"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Q848oIQEeO6yZap5BYyWQ" x="1025" y="375"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_-JRoEIIQEeO6yZap5BYyWQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-JayAIIQEeO6yZap5BYyWQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-JayAYIQEeO6yZap5BYyWQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_-JRoE4IQEeO6yZap5BYyWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_-JRoFIIQEeO6yZap5BYyWQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-JRoFYIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-JRoFoIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-JRoF4IQEeO6yZap5BYyWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-JRoGIIQEeO6yZap5BYyWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_-JRoGYIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_-JRoGoIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_-JRoG4IQEeO6yZap5BYyWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_-JRoEYIQEeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="alfresco.ecore#//dictionaries/Namespace"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-JRoEoIQEeO6yZap5BYyWQ" x="770" y="370"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="__BJrQIIQEeO6yZap5BYyWQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__BwIMIIQEeO6yZap5BYyWQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__BwIMYIQEeO6yZap5BYyWQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="__BJrQ4IQEeO6yZap5BYyWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="__BJrRIIQEeO6yZap5BYyWQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="__BJrRYIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__BJrRoIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__BJrR4IQEeO6yZap5BYyWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="__BJrSIIQEeO6yZap5BYyWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="__BJrSYIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="__BJrSoIQEeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__BJrS4IQEeO6yZap5BYyWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="__BJrQYIQEeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="alfresco.ecore#//dictionaries/Dictionaries"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__BJrQoIQEeO6yZap5BYyWQ" x="198" y="233"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_AIrUAIIREeO6yZap5BYyWQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJRw8IIREeO6yZap5BYyWQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AJRw8YIREeO6yZap5BYyWQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_AIrUA4IREeO6yZap5BYyWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_AIrUBIIREeO6yZap5BYyWQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_AIrUBYIREeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AIrUBoIREeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AIrUB4IREeO6yZap5BYyWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_AIrUCIIREeO6yZap5BYyWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_AIrUCYIREeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AIrUCoIREeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AIrUC4IREeO6yZap5BYyWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_AIrUAYIREeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="alfresco.ecore#//dictionaries/Dictionary"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AIrUAoIREeO6yZap5BYyWQ" x="442" y="348"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_Cdi5oIIREeO6yZap5BYyWQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cd10kIIREeO6yZap5BYyWQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cd10kYIREeO6yZap5BYyWQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_Cdi5o4IREeO6yZap5BYyWQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_Cdi5pIIREeO6yZap5BYyWQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_Cdi5rIIREeO6yZap5BYyWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="alfresco.ecore#//dictionaries/BaseNamespace/alias"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Cdi5rYIREeO6yZap5BYyWQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Cdi5roIREeO6yZap5BYyWQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="alfresco.ecore#//dictionaries/BaseNamespace/url"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Cdi5r4IREeO6yZap5BYyWQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Cdi5pYIREeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Cdi5poIREeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Cdi5p4IREeO6yZap5BYyWQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Cdi5qIIREeO6yZap5BYyWQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_Cdi5qYIREeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Cdi5qoIREeO6yZap5BYyWQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Cdi5q4IREeO6yZap5BYyWQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_Cdi5oYIREeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="alfresco.ecore#//dictionaries/BaseNamespace"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cdi5ooIREeO6yZap5BYyWQ" x="915" y="190"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_5QNAUYIQEeO6yZap5BYyWQ"/>
+  <element xmi:type="ecore:EPackage" href="alfresco.ecore#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="__BcmMIIQEeO6yZap5BYyWQ" type="3002" source="_5QpsQIIQEeO6yZap5BYyWQ" target="__BJrQIIQEeO6yZap5BYyWQ">
+    <children xmi:type="notation:Node" xmi:id="__BmXMIIQEeO6yZap5BYyWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__BmXMYIQEeO6yZap5BYyWQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="__BmXMoIQEeO6yZap5BYyWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__BmXM4IQEeO6yZap5BYyWQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="__BcmMYIQEeO6yZap5BYyWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="__BcmMoIQEeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="alfresco.ecore#//Alfresco/dictionaries"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__BcmM4IQEeO6yZap5BYyWQ" points="[-49, -20, 2, 1]$[-50, -21, 1, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_AJH_8IIREeO6yZap5BYyWQ" type="3002" source="_AIrUAIIREeO6yZap5BYyWQ" target="_-JRoEIIQEeO6yZap5BYyWQ">
+    <children xmi:type="notation:Node" xmi:id="_AJH_9IIREeO6yZap5BYyWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AJH_9YIREeO6yZap5BYyWQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_AJH_9oIREeO6yZap5BYyWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AJH_94IREeO6yZap5BYyWQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_AJH_8YIREeO6yZap5BYyWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AJH_8oIREeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="alfresco.ecore#//dictionaries/Dictionary/namespaces"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AJH_84IREeO6yZap5BYyWQ" points="[1, 0, -696, -457]$[654, 429, -43, -28]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_AJH_-IIREeO6yZap5BYyWQ" type="3002" source="__BJrQIIQEeO6yZap5BYyWQ" target="_AIrUAIIREeO6yZap5BYyWQ">
+    <children xmi:type="notation:Node" xmi:id="_AJH__IIREeO6yZap5BYyWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AJH__YIREeO6yZap5BYyWQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_AJH__oIREeO6yZap5BYyWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AJH__4IREeO6yZap5BYyWQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_AJH_-YIREeO6yZap5BYyWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AJH_-oIREeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="alfresco.ecore#//dictionaries/Dictionaries/dictionaries"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AJH_-4IREeO6yZap5BYyWQ" points="[-27, -28, 225, 234]$[-251, -261, 1, 1]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Cdi5sIIREeO6yZap5BYyWQ" type="3003" source="_-JRoEIIQEeO6yZap5BYyWQ" target="_Cdi5oIIREeO6yZap5BYyWQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Cdi5sYIREeO6yZap5BYyWQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Cdi5soIREeO6yZap5BYyWQ"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Cdi5s4IREeO6yZap5BYyWQ" points="[-44, -28, 770, 491]$[-813, -519, 1, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_CdsDkIIREeO6yZap5BYyWQ" type="3003" source="_9Q848IIQEeO6yZap5BYyWQ" target="_Cdi5oIIREeO6yZap5BYyWQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_CdsDkYIREeO6yZap5BYyWQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CdsDkoIREeO6yZap5BYyWQ"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CdsDk4IREeO6yZap5BYyWQ" points="[-30, -28, 584, 561]$[-613, -588, 1, 1]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LAHXoIIREeO6yZap5BYyWQ" type="3002" source="_AIrUAIIREeO6yZap5BYyWQ" target="_9Q848IIQEeO6yZap5BYyWQ">
+    <children xmi:type="notation:Node" xmi:id="_LAHXpIIREeO6yZap5BYyWQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LAHXpYIREeO6yZap5BYyWQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_LAHXpoIREeO6yZap5BYyWQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LAHXp4IREeO6yZap5BYyWQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_LAHXoYIREeO6yZap5BYyWQ" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LAHXooIREeO6yZap5BYyWQ" fontColor="4210752" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="alfresco.ecore#//dictionaries/Dictionary/imports"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LAHXo4IREeO6yZap5BYyWQ" points="[-6, 48, -563, 40]$[-6, 121, -563, 113]$[561, 121, 4, 113]$[561, 36, 4, 28]"/>
+  </edges>
+</notation:Diagram>

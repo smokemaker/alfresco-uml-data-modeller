@@ -279,7 +279,7 @@ public class NamespaceGenerator extends AbstractSdocGenerator {
 
 		@Override
 		public String getAnnotation(StereotypedElement stereotypedElement) {
-			return getAnnotation(WrapperFactory.get(stereotypedElement));
+			return getAnnotation((AbstractWrapper)WrapperFactory.get(stereotypedElement));
 		}
 
 		@Override
@@ -294,7 +294,7 @@ public class NamespaceGenerator extends AbstractSdocGenerator {
 
 		@Override
 		public Set<String> getAnnotationImports(StereotypedElement stereotypedElement) {
-			return getAnnotationImports(WrapperFactory.get(stereotypedElement));
+			return getAnnotationImports((AbstractWrapper)WrapperFactory.get(stereotypedElement));
 		}
 		
 	}

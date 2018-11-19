@@ -151,17 +151,15 @@ public class NewAlfrescoContentProjectWizard extends NewPapyrusProjectWizard {
 			String categoryId) {
 		super.initDiagrams(resourceSet, root, categoryId);
 
-		CSSNotationModel cssModel = null;
 		IModel nm = resourceSet.getModel(NotationModel.MODEL_ID);
-		if (nm instanceof CSSNotationModel)
-			cssModel = (CSSNotationModel)nm;
+		if (nm instanceof CSSNotationModel) {
+		}
 		
-		Alfresco alfModel = null;
 		for (Resource res: resourceSet.getResources()){
 			if (res.getContents()!=null){
 				EObject rRoot = res.getContents().get(0); 
-				if (rRoot instanceof Alfresco)
-					alfModel = (Alfresco)rRoot;
+				if (rRoot instanceof Alfresco) {
+				}
 			}
 		}
 		

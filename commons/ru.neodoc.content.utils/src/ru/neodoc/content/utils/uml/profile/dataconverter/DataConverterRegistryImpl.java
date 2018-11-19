@@ -74,6 +74,7 @@ public class DataConverterRegistryImpl extends DefaultDirectedGraph<ClassVertex,
 		addConverter(dataConverter.getSourceClass(), dataConverter.getTargetClass(), dataConverter);
 	}
 	
+	@SuppressWarnings("unlikely-arg-type")
 	@Override
 	public void addConverter(Class<?> sourceClass, Class<?> targetClass, DataConverter<?, ?> dataConverter) {
 		ClassVertex from = getOrCreateVertex(sourceClass);

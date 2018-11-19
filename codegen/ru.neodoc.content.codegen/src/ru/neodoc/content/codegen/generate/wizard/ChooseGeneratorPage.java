@@ -14,15 +14,12 @@ import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Combo;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Label;
-import org.eclipse.swt.widgets.Text;
-
 import ru.neodoc.content.codegen.CodegenHelper;
 import ru.neodoc.content.codegen.CodegenPlugin;
 import ru.neodoc.content.codegen.SourceCodeGeneratorInfo;
 import ru.neodoc.content.codegen.preferences.PreferenceConstants;
 import ru.neodoc.content.codegen.wizard.SourceCodeGeneratorWizard;
 import ru.neodoc.content.codegen.wizard.SourceCodeGeneratorWizardPageImpl;
-import ru.neodoc.content.codegen.wizard.SubjectAwareWizardPageImpl;
 
 public class ChooseGeneratorPage extends SourceCodeGeneratorWizardPageImpl {
 	

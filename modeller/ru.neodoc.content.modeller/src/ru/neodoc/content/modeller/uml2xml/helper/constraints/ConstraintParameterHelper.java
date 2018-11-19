@@ -20,7 +20,6 @@ import ru.neodoc.content.utils.CommonUtils.ListComparator;
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.content.utils.uml.profile.descriptor.PropertyDescriptor;
 import ru.neodoc.content.utils.uml.profile.descriptor.StereotypeDescriptor;
-import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotypeClassified;
 
 public class ConstraintParameterHelper 
 		extends AbstractSubHelper<Constraint, LiteralString, ConstraintParametersProxyObject, NamedValue, AlfrescoProfile.ForLiteralSpecification.SimpleParameterWrapper>{
@@ -57,7 +56,7 @@ public class ConstraintParameterHelper
 							continue;
 						if (value instanceof List) {
 							List<String> list = new ArrayList<>();
-							for (Object object: (List)value) {
+							for (Object object: (List<?>)value) {
 								if (object!=null)
 									list.add(object.toString());
 								else

@@ -5,7 +5,6 @@ import org.eclipse.uml2.uml.Dependency;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForConstraint.ConstraintMain;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForNamedElement.ConstraintedObject;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForProperty.PropertyMain;
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.content.utils.uml.profile.annotation.AImplements;
 import ru.neodoc.content.utils.uml.profile.meta.CompositeMetaObject;

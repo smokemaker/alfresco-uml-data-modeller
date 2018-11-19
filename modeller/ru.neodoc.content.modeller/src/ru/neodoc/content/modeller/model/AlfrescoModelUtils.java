@@ -284,7 +284,6 @@ public class AlfrescoModelUtils {
 		return getNotationContent(model);
 	}
 	
-	@SuppressWarnings("unchecked")
 	public static void applyCssToDiagram(Package owner, String diagramName){
 		List<EObject> notationContent = getNotationContent(owner);
 		CSSDiagram diagram = findDiagram(owner, diagramName, notationContent);
@@ -292,6 +291,7 @@ public class AlfrescoModelUtils {
 		applyCSSToDiagram(diagram, defaultCss);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public static void applyCSSToDiagram(CSSDiagram diagram, String cssPath){
 		EObjectListValueStyle styleList = null;
 		for (Object style: diagram.getStyles()){

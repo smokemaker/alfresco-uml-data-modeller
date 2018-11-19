@@ -11,6 +11,7 @@ import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo.DependencyType;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForClass.ClassMain;
 
+@SuppressWarnings("unchecked")
 public class PeerAccociationHelper extends AbstractAssociationHelper<Association> {
 
 	static {

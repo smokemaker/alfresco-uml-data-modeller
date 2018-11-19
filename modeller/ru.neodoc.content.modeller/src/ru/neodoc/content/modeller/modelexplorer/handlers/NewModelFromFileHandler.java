@@ -3,7 +3,7 @@ package ru.neodoc.content.modeller.modelexplorer.handlers;
 import org.alfresco.model.dictionary._1.Model;
 import org.alfresco.model.dictionary._1.Model.Namespaces.Namespace;
 import org.eclipse.core.expressions.IEvaluationContext;
-import org.eclipse.core.internal.resources.File;
+import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IResource;
 import org.eclipse.core.resources.IWorkspaceRoot;
 import org.eclipse.core.resources.ResourcesPlugin;
@@ -22,7 +22,6 @@ import ru.neodoc.content.modeller.utils.ImportsAndDependenciesUpdater;
 import ru.neodoc.content.modeller.utils.JaxbUtils;
 import ru.neodoc.content.modeller.utils.JaxbUtils.JaxbHelper;
 import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
-import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtilsDeprecated;
 import ru.neodoc.content.modeller.xml2uml.XML2UMLGenerator;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.utils.PrefixedName;
@@ -99,7 +98,6 @@ public class NewModelFromFileHandler extends NewModelHandler {
 							continue;
 						}
 						if ((control instanceof Label) && (pattern!=null)) {
-							Label label = (Label)control;
 							pattern.setText("*.xml");
 							//pattern.setEnabled(false);
 							adjustPattern();
@@ -117,10 +115,10 @@ public class NewModelFromFileHandler extends NewModelHandler {
 					return false;
 				if (result.length==0)
 					return false;
-				if (!(result[0] instanceof File))
+				if (!(result[0] instanceof IFile))
 					return false;
 				try {
-					this.jaxbHelper = JaxbUtils.readModel((File)result[0]);
+					this.jaxbHelper = JaxbUtils.readModel((IFile)result[0]);
 					if (this.jaxbHelper.getObject() == null) {
 						return false;
 					}
@@ -146,9 +144,11 @@ public class NewModelFromFileHandler extends NewModelHandler {
 		
 		@Override
 		protected void doRun() {
-			Package model = AlfrescoUMLUtilsDeprecated.createModel(
+			
+			Package model = AlfrescoUMLUtils.createModel(
 					selectedPackage, 
 					(String)creationInfo.get("prefix") + ":" + (String)creationInfo.get("name"));
+			
 			ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Model theModel = 
 					ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Model._HELPER.getFor(model);
 			

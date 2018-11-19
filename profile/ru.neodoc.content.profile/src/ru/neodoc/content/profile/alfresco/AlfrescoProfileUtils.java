@@ -1,6 +1,5 @@
 package ru.neodoc.content.profile.alfresco;
 
-import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -23,7 +22,6 @@ import ru.neodoc.content.utils.PrefixedName;
 import ru.neodoc.content.utils.uml.UMLUtils;
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.content.utils.uml.search.filter.SearchFilterFactory;
-import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilter;
 import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilterByName;
 import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilterByStereotype;
 import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilterLogicalNot;
@@ -40,30 +38,16 @@ public class AlfrescoProfileUtils extends UMLUtils {
 		PT_NOT_A_PACKAGE
 	}
 
-	@Deprecated
 	public static boolean isAlfresco(Element element) {
-		if (!(element instanceof Package))
-			return false;
-		Package pack = (Package) element;
-		return hasStereotype(pack, AlfrescoProfile.ForModel.Alfresco._NAME);
+		return AlfrescoProfile.isType(element, AlfrescoProfile.ForModel.Alfresco.class);
 	}
 
-	@Deprecated
 	public static boolean isModel(Element element) {
-		if (element==null)
-			return false;
-		if (!(element instanceof Package))
-			return false;
-		Package pack = (Package) element;
-		return hasStereotype(pack, AlfrescoProfile.ForPackage.Model._NAME);
+		return AlfrescoProfile.isType(element, AlfrescoProfile.ForPackage.Model.class);
 	}
 
-	@Deprecated
 	public static boolean isNamespace(Element element) {
-		if (!(element instanceof Package))
-			return false;
-		Package pack = (Package) element;
-		return hasStereotype(pack, AlfrescoProfile.ForPackage.Namespace._NAME);
+		return AlfrescoProfile.isType(element, AlfrescoProfile.ForPackage.Namespace.class);
 	}
 
 	public static boolean isSimplePackage(Element element) {

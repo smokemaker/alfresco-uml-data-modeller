@@ -35,7 +35,6 @@ import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackageImport.ImportNamespace;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPrimitiveType.DataType;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForProperty.Property;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForProperty.PropertyMain;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.ConstraintType;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.Enforced;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.Named;

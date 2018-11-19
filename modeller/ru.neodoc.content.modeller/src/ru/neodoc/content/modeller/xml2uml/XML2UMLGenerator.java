@@ -2,7 +2,6 @@ package ru.neodoc.content.modeller.xml2uml;
 
 import java.util.List;
 
-import org.eclipse.jface.operation.IRunnableWithProgress;
 import org.eclipse.uml2.uml.Package;
 
 import ru.neodoc.content.ecore.alfresco.model.alfresco.dictionaries.Namespace;

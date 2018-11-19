@@ -15,7 +15,6 @@ import org.eclipse.uml2.uml.Profile;
 import org.eclipse.uml2.uml.Stereotype;
 
 import ru.neodoc.content.utils.uml.profile.annotation.AImplemented;
-import ru.neodoc.content.utils.uml.profile.annotation.ARelationStereotype;
 import ru.neodoc.content.utils.uml.profile.annotation.AStereotype;
 import ru.neodoc.content.utils.uml.profile.annotation.AStereotype.AApplication;
 import ru.neodoc.content.utils.uml.profile.annotation.AStereotypeProperties;
@@ -30,6 +29,7 @@ import ru.neodoc.content.utils.uml.profile.meta.ImplementationMetaObject;
 import ru.neodoc.content.utils.uml.profile.registry.ProfileRegistry;
 import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotype;
 
+@SuppressWarnings("rawtypes")
 public class StereotypeDescriptor extends AbstractOwnedDescriptor<Class, Stereotype, ProfileDescriptor> {
 	
 	

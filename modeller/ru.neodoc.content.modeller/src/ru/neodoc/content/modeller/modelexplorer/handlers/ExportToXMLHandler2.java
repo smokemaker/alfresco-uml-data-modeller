@@ -15,8 +15,6 @@ import ru.neodoc.content.modeller.ContentModellerPlugin;
 import ru.neodoc.content.modeller.preferences.PreferenceConstants;
 import ru.neodoc.content.modeller.uml2xml.UML2XMLGenerator;
 import ru.neodoc.content.modeller.utils.ImportsAndDependenciesUpdater;
-//import ru.neodoc.content.modeller.utils.AlfrescoProfile;
-import ru.neodoc.content.modeller.utils.sync.ModelXMLSynchronizer;
 import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 

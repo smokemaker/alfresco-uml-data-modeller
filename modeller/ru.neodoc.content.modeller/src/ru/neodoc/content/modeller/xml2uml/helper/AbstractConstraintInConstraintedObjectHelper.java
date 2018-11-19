@@ -9,7 +9,6 @@ import org.eclipse.uml2.uml.Element;
 import org.eclipse.uml2.uml.NamedElement;
 import org.eclipse.uml2.uml.Package;
 
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.utils.CommonUtils;
@@ -25,6 +24,7 @@ public abstract class AbstractConstraintInConstraintedObjectHelper<ContainerType
 		return  createNewTempModelObject(object);
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	protected List<ModelObject<? extends Constraint>> getModelObjectsFromContainer(ModelObject<? extends ContainerType> container) {
 		List<ModelObject<? extends Constraint>> result = new ArrayList<>();
@@ -73,6 +73,7 @@ public abstract class AbstractConstraintInConstraintedObjectHelper<ContainerType
 		if (super.processStereotypedElement(stereotypedElement, object)) {
 			stereotypedElement.getOrCreate(AlfrescoProfile.ForConstraint.Inline.class);
 			Element prop = this.containerModelObject.getElement();
+			@SuppressWarnings("unchecked")
 			AlfrescoProfile.ForNamedElement.ConstraintedObject<NamedElement> constraintedObject 
 				= AbstractProfile.asUntyped(prop).get(AlfrescoProfile.ForNamedElement.ConstraintedObject.class);
 			AlfrescoProfile.ForConstraint.ConstraintMain cm = stereotypedElement.get(AlfrescoProfile.ForConstraint.ConstraintMain.class);

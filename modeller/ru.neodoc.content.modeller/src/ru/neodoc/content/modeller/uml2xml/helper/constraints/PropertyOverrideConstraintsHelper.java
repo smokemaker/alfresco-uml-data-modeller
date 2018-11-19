@@ -3,12 +3,9 @@ package ru.neodoc.content.modeller.uml2xml.helper.constraints;
 import org.alfresco.model.dictionary._1.PropertyOverride;
 import org.alfresco.model.dictionary._1.PropertyOverride.Constraints;
 import org.eclipse.uml2.uml.Dependency;
-import org.eclipse.uml2.uml.Element;
-
 import ru.neodoc.content.modeller.uml2xml.helper.AbstractSubHelperForContainerSingleton;
 import ru.neodoc.content.modeller.uml2xml.helper.classes.PropertyOverrideHelper;
 import ru.neodoc.content.modeller.utils.JaxbUtils;
-import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotypeClassified;
 
 public class PropertyOverrideConstraintsHelper 
 		extends AbstractSubHelperForContainerSingleton<

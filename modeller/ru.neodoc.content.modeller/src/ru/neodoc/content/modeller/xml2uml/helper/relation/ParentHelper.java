@@ -12,7 +12,6 @@ import ru.neodoc.content.modeller.xml2uml.helper.AbstractHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractRelationSubHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.entity.ClassHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.relation.proxy.ParentProxy;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo.DependencyType;
@@ -22,6 +21,7 @@ import ru.neodoc.content.utils.uml.UMLUtils;
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.content.utils.uml.search.UMLSearchUtils;
 
+@SuppressWarnings("unchecked")
 public class ParentHelper extends AbstractRelationSubHelper<Class, ParentProxy, Generalization> {
 	
 	static {

@@ -5,10 +5,8 @@ import ru.neodoc.content.codegen.sdoc2.extension.java.generator.writer.ClassWrit
 import ru.neodoc.content.codegen.sdoc2.extension.java.generator.writer.PropertyWriter;
 import ru.neodoc.content.codegen.sdoc2.extension.javascript.WrapperJSExtension;
 import ru.neodoc.content.codegen.sdoc2.generator.SdocGenerator.SdocGeneratorReporter;
-import ru.neodoc.content.codegen.sdoc2.generator.writer.AbstractWriter;
 import ru.neodoc.content.codegen.sdoc2.generator.writer.AnnotationProvider;
 import ru.neodoc.content.codegen.sdoc2.wrap.AbstractAlfrescoClassWrapper;
-import ru.neodoc.content.codegen.sdoc2.wrap.AbstractWrapper;
 import ru.neodoc.content.codegen.sdoc2.wrap.AspectWrapper;
 import ru.neodoc.content.codegen.sdoc2.wrap.AssociationMainWrapper;
 import ru.neodoc.content.codegen.sdoc2.wrap.PropertyWrapper;

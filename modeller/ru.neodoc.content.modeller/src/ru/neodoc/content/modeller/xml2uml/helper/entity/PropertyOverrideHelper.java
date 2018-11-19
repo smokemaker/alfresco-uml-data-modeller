@@ -12,7 +12,6 @@ import org.eclipse.uml2.uml.Property;
 import ru.neodoc.content.modeller.tasks.ExecutionCallback;
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractEntitySubHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractHelper;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForClass.ClassMain;
@@ -21,6 +20,7 @@ import ru.neodoc.content.utils.PrefixedName;
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.content.utils.uml.profile.stereotype.StereotypedElement;
 
+@SuppressWarnings("unchecked")
 public class PropertyOverrideHelper extends AbstractEntitySubHelper<Class, PropertyOverride, Dependency> {
 
 	static {

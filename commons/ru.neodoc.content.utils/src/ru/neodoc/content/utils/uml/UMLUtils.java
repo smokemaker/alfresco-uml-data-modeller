@@ -11,8 +11,6 @@ import org.eclipse.uml2.uml.Package;
 import org.eclipse.uml2.uml.Profile;
 import org.eclipse.uml2.uml.Stereotype;
 
-import ru.neodoc.content.utils.uml.search.converter.UMLSearchConvertibleList;
-
 public class UMLUtils {
 
 	public static Model getUMLRoot(EObject eObject){

@@ -79,7 +79,7 @@ public class EnumPropertyConstraintHelper extends PropertyConstraintHelper
 		List<PrefixedName> path = AlfrescoModelUtils.getHierarchyNames(objectHierarchy);
 		
 		ExtensionsJAXBHelper helper = getExecutionContext().get(ExtensionsJAXBHelper.class); 
-		ModelObject modelObject = helper.locate(path, true);
+		helper.locate(path, true);
 		
 		return result;
 	}

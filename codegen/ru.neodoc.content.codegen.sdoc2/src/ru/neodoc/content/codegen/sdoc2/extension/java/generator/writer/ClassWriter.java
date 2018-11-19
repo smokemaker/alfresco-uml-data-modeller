@@ -22,7 +22,6 @@ import ru.neodoc.content.codegen.sdoc2.wrap.WrapperFactory;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForAssociation.MandatoryAspect;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForClass.ClassMain;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForGeneralization.Inherit;
-import ru.neodoc.content.utils.CommonUtils;
 import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotype;
 
 public class ClassWriter extends AbstractJavaWriter<AbstractAlfrescoClassWrapper<?>> {

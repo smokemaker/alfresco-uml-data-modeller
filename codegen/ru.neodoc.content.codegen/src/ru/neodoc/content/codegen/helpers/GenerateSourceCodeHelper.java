@@ -7,10 +7,6 @@ import org.eclipse.uml2.uml.Package;
 
 import ru.neodoc.content.codegen.CodegenSubject;
 import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
-import ru.neodoc.content.modeller.utils.uml.elements.Alfresco;
-import ru.neodoc.content.modeller.utils.uml.elements.BaseElement;
-import ru.neodoc.content.modeller.utils.uml.elements.ElementFactory;
-import ru.neodoc.content.modeller.utils.uml.elements.impl.NamespaceImpl;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
 import ru.neodoc.content.utils.uml.profile.stereotype.StereotypedElement;
@@ -21,7 +17,6 @@ public class GenerateSourceCodeHelper implements CodegenSubject {
 	protected Element currentElement = null;
 	protected Model umlRoot = null;
 	
-	protected BaseElement baseElement = null;
 	
 	protected StereotypedElement profileElement = null;
 	
@@ -30,7 +25,6 @@ public class GenerateSourceCodeHelper implements CodegenSubject {
 		this.currentObject = currentObject; 
 		this.currentElement = (Element)currentObject;
 		this.umlRoot = AlfrescoUMLUtils.getUMLRoot(currentObject);
-		this.baseElement = ElementFactory.createElement(currentElement);
 		this.profileElement = AlfrescoProfile.asUntyped(this.currentElement);
 	}
 
@@ -90,29 +84,6 @@ public class GenerateSourceCodeHelper implements CodegenSubject {
 		return (Package)null;
 	}
 	
-	@Override
-	@Deprecated
-	public Alfresco asAlfrescoElement() {
-		if (baseElement instanceof Alfresco)
-			return (Alfresco) baseElement;
-		return null;
-	}
-	
-	@Override
-	@Deprecated
-	public ru.neodoc.content.modeller.utils.uml.elements.impl.ModelImpl asModelElement() {
-		if (baseElement instanceof ru.neodoc.content.modeller.utils.uml.elements.impl.ModelImpl)
-			return (ru.neodoc.content.modeller.utils.uml.elements.impl.ModelImpl) baseElement;
-		return null;
-	}
-	
-	@Override
-	@Deprecated
-	public NamespaceImpl asNamespaceElement() {
-		if (baseElement instanceof NamespaceImpl)
-			return (NamespaceImpl) baseElement;
-		return null;
-	}
 	
 	/* (non-Javadoc)
 	 * @see ru.neodoc.content.codegen.helpers.CodegenSubject#getCurrentObject()

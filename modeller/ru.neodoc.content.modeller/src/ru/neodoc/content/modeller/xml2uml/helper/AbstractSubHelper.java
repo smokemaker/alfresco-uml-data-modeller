@@ -6,7 +6,6 @@ import java.util.List;
 import org.eclipse.uml2.uml.Element;
 
 import ru.neodoc.content.modeller.tasks.ExecutionCallback;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 
 public abstract class AbstractSubHelper<ContainerType, ElementType, E extends Element> 
@@ -32,6 +31,7 @@ public abstract class AbstractSubHelper<ContainerType, ElementType, E extends El
 		});
 	}
 	
+	@SuppressWarnings("unchecked")
 	@Override
 	public <ContainerTypeLocal> void populateFromContainer(ModelObject<ContainerTypeLocal> container, ExecutionCallback callback) {
 		this.containerModelObject = (ModelObject<ContainerType>)container;

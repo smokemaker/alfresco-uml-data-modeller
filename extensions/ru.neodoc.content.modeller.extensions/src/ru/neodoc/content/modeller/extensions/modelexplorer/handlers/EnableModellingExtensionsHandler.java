@@ -1,12 +1,7 @@
 package ru.neodoc.content.modeller.extensions.modelexplorer.handlers;
 
-import org.eclipse.core.commands.State;
 import org.eclipse.core.expressions.IEvaluationContext;
 import org.eclipse.emf.common.command.Command;
-import org.eclipse.jface.commands.ToggleState;
-import org.eclipse.ui.PlatformUI;
-import org.eclipse.ui.commands.ICommandService;
-import org.eclipse.ui.handlers.HandlerUtil;
 import org.eclipse.uml2.uml.Model;
 import org.eclipse.uml2.uml.Package;
 

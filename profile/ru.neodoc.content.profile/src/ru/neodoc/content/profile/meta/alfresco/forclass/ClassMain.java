@@ -22,7 +22,6 @@ import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForGeneralization.Inhe
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForProperty.Property;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.DdTextualDescription;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.Named;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.Namespaced;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.StoredElement;
 import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchHelperFactory;

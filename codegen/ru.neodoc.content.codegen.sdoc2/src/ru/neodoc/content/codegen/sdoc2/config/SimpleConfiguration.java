@@ -40,6 +40,7 @@ public class SimpleConfiguration implements Configuration {
 		data.put(name, value);
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public <T> T getTypedValue(String name) {
 		Object obj = getValue(name);

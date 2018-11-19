@@ -8,7 +8,6 @@ import org.alfresco.model.dictionary._1.Constraint;
 import org.alfresco.model.dictionary._1.Property;
 
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractConstraintHelper;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo.DependencyType;
 import ru.neodoc.content.utils.CommonUtils;

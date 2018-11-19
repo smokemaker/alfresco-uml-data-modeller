@@ -11,12 +11,12 @@ public abstract class AbstractDataConverter<SourceClass, TargetClass> implements
 		this.targetClass = targetClass;
 	}
 	
-	@SuppressWarnings("unchecked")
 	@Override
 	public final TargetClass convert(SourceClass source, Object...objects) {
 		return convert(source, this.targetClass, objects);
 	}
 	
+	@SuppressWarnings("unchecked")
 	@Override
 	public TargetClass convert(SourceClass source, Class<? extends TargetClass> exactTargetClass, Object...objects) {
 		if (source==null)

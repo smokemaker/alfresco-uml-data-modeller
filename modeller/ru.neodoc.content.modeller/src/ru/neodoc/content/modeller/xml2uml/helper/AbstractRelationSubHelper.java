@@ -2,7 +2,6 @@ package ru.neodoc.content.modeller.xml2uml.helper;
 
 import org.eclipse.uml2.uml.Element;
 
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo.DependencyType;

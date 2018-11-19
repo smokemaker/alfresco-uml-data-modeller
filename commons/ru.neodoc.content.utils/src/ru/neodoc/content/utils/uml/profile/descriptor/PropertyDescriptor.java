@@ -1,6 +1,5 @@
 package ru.neodoc.content.utils.uml.profile.descriptor;
 
-import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 
 import org.eclipse.uml2.uml.Element;

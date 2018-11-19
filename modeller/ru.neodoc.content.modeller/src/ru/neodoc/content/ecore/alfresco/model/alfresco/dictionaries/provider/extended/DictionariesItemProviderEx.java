@@ -60,7 +60,8 @@ public class DictionariesItemProviderEx extends DictionariesItemProvider {
 	    return super.createCommand(object, domain, commandClass, commandParameter);
 	}
 	
-	  protected Command createLoadDictionaryFromResourceCommand
+	  @SuppressWarnings("unchecked")
+	protected Command createLoadDictionaryFromResourceCommand
 	    (EditingDomain domain, EObject owner, EStructuralFeature feature, Object value, int index, Collection<?> collection)
 	  {
 	    if (feature instanceof EReference && value instanceof EObject)
@@ -70,7 +71,8 @@ public class DictionariesItemProviderEx extends DictionariesItemProvider {
 	    return new LoadDictionaryFromResourceCommand(domain, owner, feature, (List<Object>)value, index, collection);
 	  }
 
-	  protected Command createLoadDictionariesFromUMLCommand
+	  @SuppressWarnings("unchecked")
+	protected Command createLoadDictionariesFromUMLCommand
 	    (EditingDomain domain, EObject owner, EStructuralFeature feature, Object value, int index, Collection<?> collection)
 	  {
 	    if (feature instanceof EReference && value instanceof EObject)

@@ -14,7 +14,6 @@ import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractEntitySubHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.relation.proxy.DependencyProxy;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo.DependencyType;
@@ -27,6 +26,7 @@ import ru.neodoc.content.utils.CommonUtils;
 import ru.neodoc.content.utils.PrefixedName;
 import ru.neodoc.content.utils.uml.profile.stereotype.StereotypedElement;
 
+@SuppressWarnings("unchecked")
 public class PropertyHelper extends AbstractEntitySubHelper<Class, Property, org.eclipse.uml2.uml.Property> {
 
 	static {
@@ -58,7 +58,6 @@ public class PropertyHelper extends AbstractEntitySubHelper<Class, Property, org
 			:container.getProperties().getProperty();
 	}
 
-	@SuppressWarnings("unchecked")
 	@Override
 	protected List<ModelObject<? extends Property>> getModelObjectsFromContainer(
 			ModelObject<? extends Class> container) {

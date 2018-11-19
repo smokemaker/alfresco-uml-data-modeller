@@ -10,6 +10,7 @@ import org.eclipse.uml2.uml.PackageableElement;
 
 public class UMLSearchHelperNamedElementInPackage<T extends NamedElement> extends UMLSearchHelperInPackage<T> {
 
+	@SuppressWarnings("unchecked")
 	@Override
 	protected List<? extends T> getElementsFromContainer(Package container) {
 		List<PackageableElement> elements = container.getPackagedElements();

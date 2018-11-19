@@ -2,7 +2,7 @@
 <feature
       id="ru.neodoc.content.commons.feature"
       label="Content Modeller Commons"
-      version="2.0.0.qualifier">
+      version="2.1.0.qualifier">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -22,7 +22,7 @@
       <import plugin="org.eclipse.papyrus.uml.tools.utils" version="3.4.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.papyrus.uml.tools" version="4.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.osgi"/>
-      <import plugin="org.eclipse.core.runtime" version="3.14.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.15.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin

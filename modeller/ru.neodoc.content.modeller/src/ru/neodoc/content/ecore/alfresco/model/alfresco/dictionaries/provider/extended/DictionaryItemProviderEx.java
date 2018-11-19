@@ -47,7 +47,8 @@ public class DictionaryItemProviderEx extends DictionaryItemProvider {
 		return super.createCommand(object, domain, commandClass, commandParameter);
 	}
 	
-	  protected Command createLoadDictionaryFromResourceCommand
+	  @SuppressWarnings("unchecked")
+	protected Command createLoadDictionaryFromResourceCommand
 	    (EditingDomain domain, EObject owner, EStructuralFeature feature, Object value, int index, Collection<?> collection)
 	  {
 	    if (feature instanceof EReference && value instanceof EObject)

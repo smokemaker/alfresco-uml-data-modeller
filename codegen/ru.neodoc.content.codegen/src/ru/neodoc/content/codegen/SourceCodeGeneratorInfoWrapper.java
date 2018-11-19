@@ -12,7 +12,7 @@ public class SourceCodeGeneratorInfoWrapper implements IConfigurationWrapper<Sou
 
 	@Override
 	public List<SourceCodeGeneratorInfo> create(IExtension extension, IConfigurationElement element) {
-		return Arrays.asList(new SourceCodeGeneratorInfo[] {new SourceCodeGeneratorInfo(extension, element)});
+		return Arrays.asList(new SourceCodeGeneratorInfo[] { new SourceCodeGeneratorInfo(extension, element)});
 	}
 	
 }

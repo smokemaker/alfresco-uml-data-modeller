@@ -1,6 +1,5 @@
 package ru.neodoc.content.utils.uml.profile.meta;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashSet;

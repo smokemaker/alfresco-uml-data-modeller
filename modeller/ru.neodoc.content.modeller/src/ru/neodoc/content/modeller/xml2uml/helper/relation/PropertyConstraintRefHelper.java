@@ -10,7 +10,6 @@ import org.eclipse.uml2.uml.Dependency;
 
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractConstraintRefHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.entity.PropertyHelper;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.utils.CommonUtils;
 
 public class PropertyConstraintRefHelper extends AbstractConstraintRefHelper<Property> {

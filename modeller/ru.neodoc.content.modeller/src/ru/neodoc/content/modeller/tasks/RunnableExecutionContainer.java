@@ -10,8 +10,6 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.swt.widgets.Shell;
 
-import ru.neodoc.content.modeller.xml2uml.XML2UMLGenerator;
-
 public abstract class RunnableExecutionContainer implements IRunnableWithProgress {
 
 	protected Shell parentShell;
@@ -37,14 +35,12 @@ public abstract class RunnableExecutionContainer implements IRunnableWithProgres
 		
 		monitor.beginTask(rootTask.name, rootTask.totalCount);
 		
-		SubMonitor currentSubMonitor; 
 		Display display = this.parentShell.getDisplay();
 		
 		for (SubtaskDescriptor subtask: rootTask.subtasks) {
 			executor.prepare(subtask);
 			
 			final SubMonitor subMonitor = SubMonitor.convert(this.rootMonitor, subtask.relativeCount);
-			currentSubMonitor = subMonitor;
 			subMonitor.beginTask(subtask.name, subtask.totalCount);
 			
 			ExecutionResult result = executor.execute(

@@ -11,7 +11,6 @@ import javax.xml.bind.annotation.XmlSchema;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import org.alfresco.model.dictionary._1.AlfrescoModelUtils;
 import org.eclipse.core.resources.IFile;
 import org.w3c.dom.Document;
 

@@ -11,6 +11,7 @@ import ru.neodoc.content.utils.uml.profile.registry.ProfileRegistry;
 import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotype;
 import ru.neodoc.content.utils.uml.search.UMLSearchUtils;
 
+@SuppressWarnings("rawtypes")
 public class CustomDataTypeClassDescriptor extends AbstractOwnedDescriptor<
 		Class, 
 		org.eclipse.uml2.uml.DataType, 
@@ -45,6 +46,7 @@ public class CustomDataTypeClassDescriptor extends AbstractOwnedDescriptor<
 		return name;
 	}
 	
+	@SuppressWarnings("unchecked")
 	public Class<? extends ProfileStereotype> getWrapper(){
 		Class<?> wrapper = annotation.wrapper();
 		if (wrapper == null)
@@ -54,6 +56,7 @@ public class CustomDataTypeClassDescriptor extends AbstractOwnedDescriptor<
 		return null;
 	}
 
+	@SuppressWarnings("unchecked")
 	public DynamicEObjectImpl convertToEObject(Object value) {
 		if (!originElement.isAssignableFrom(value.getClass()))
 			return new DynamicEObjectImpl();

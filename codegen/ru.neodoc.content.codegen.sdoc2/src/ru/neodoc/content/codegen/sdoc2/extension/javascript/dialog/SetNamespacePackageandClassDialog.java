@@ -6,7 +6,6 @@ import org.eclipse.swt.widgets.Shell;
 
 import ru.neodoc.content.codegen.sdoc2.dialog.SetPackageAndClassDialog;
 import ru.neodoc.content.codegen.sdoc2.extension.java.WrapperJavaExtension;
-import ru.neodoc.content.codegen.sdoc2.extension.javascript.WrapperJSExtension;
 
 public class SetNamespacePackageandClassDialog extends SetPackageAndClassDialog {
 

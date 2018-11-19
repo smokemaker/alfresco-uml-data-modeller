@@ -1,9 +1,5 @@
 package ru.neodoc.content.codegen.sdoc2.extension.javascript.preferences;
 
-import org.eclipse.jface.preference.*;
-import org.eclipse.ui.IWorkbenchPreferencePage;
-
-import ru.neodoc.content.codegen.sdoc2.SdocCodegenPlugin;
 import ru.neodoc.content.codegen.sdoc2.extension.javascript.JavaScriptCodegenExtension;
 import ru.neodoc.content.codegen.sdoc2.extension.preferences.ExtensionPreferencePage;
 

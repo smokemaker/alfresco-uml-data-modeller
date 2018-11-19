@@ -55,23 +55,23 @@ public class Test2Handler extends AbstractCommandHandler {
 		if (!(owner instanceof Package))
 			return null;
 		
-		Package pack = (Package) owner;
+/*		Package pack = (Package) owner;
 		
 		ViewPrototype targetProto = null;
-		
-		for (final ViewPrototype proto : PolicyChecker.getFor(owner).getPrototypesFor(owner)) {
+*/		
+//		for (final ViewPrototype proto : PolicyChecker.getFor(owner).getPrototypesFor(owner)) {
 			/*if (proto.getConfiguration() instanceof PapyrusDiagram) {
 				if ("Package Diagram".equals(proto.getConfiguration().getName())){
 					targetProto = proto;
 					break;
 				}
 			}*/
-		}
+//		}
 		
-		if (targetProto != null) {
+/*		if (targetProto != null) {
 			targetProto.instantiateOn(owner, pack.getName());
 		}
-		
+*/		
 		return null;
 	}
 	

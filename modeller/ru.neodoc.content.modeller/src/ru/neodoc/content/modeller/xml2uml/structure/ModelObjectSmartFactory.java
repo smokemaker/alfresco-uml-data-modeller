@@ -34,6 +34,7 @@ public class ModelObjectSmartFactory {
 		return modelObject;
 	}
 
+	@SuppressWarnings("unchecked")
 	public <T extends Object> ModelObject<T> getObject(Object source){
 		return (ModelObject<T>)this.objReg.get(source);
 	}

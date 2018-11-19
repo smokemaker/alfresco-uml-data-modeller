@@ -23,6 +23,7 @@ public class PropertyOverride extends ImplementationMetaObjectClassified<Depende
 
 	protected ConstraintedObject<Dependency> _constraintedObject;
 	
+	@SuppressWarnings("unchecked")
 	public PropertyOverride(CompositeMetaObject composite) {
 		super(composite);
 		_constraintedObject = createAndRegisterSubimplementor(ConstraintedObject.class);

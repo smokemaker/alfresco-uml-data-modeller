@@ -22,13 +22,11 @@ import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.dialogs.ContainerSelectionDialog;
 
-import ru.neodoc.content.codegen.sdoc2.extension.java.WrapperJavaExtension;
 import ru.neodoc.content.codegen.sdoc2.extension.java.pages.provider.AbstractWrapperTreeContentProvider;
 import ru.neodoc.content.codegen.sdoc2.extension.java.pages.provider.NameLabelProvider;
 import ru.neodoc.content.codegen.sdoc2.extension.java.pages.provider.TitleLabelProvider;
 import ru.neodoc.content.codegen.sdoc2.extension.javascript.WrapperJSExtension;
 import ru.neodoc.content.codegen.sdoc2.extension.javascript.dialog.SetNamespaceClassNameDialog;
-import ru.neodoc.content.codegen.sdoc2.extension.javascript.dialog.SetNamespacePackageandClassDialog;
 import ru.neodoc.content.codegen.sdoc2.extension.javascript.pages.provider.JavaScriptNameLabelProvider;
 import ru.neodoc.content.codegen.sdoc2.wizard.SdocCodegenWizardPage;
 import ru.neodoc.content.codegen.sdoc2.wrap.AbstractWrapper;

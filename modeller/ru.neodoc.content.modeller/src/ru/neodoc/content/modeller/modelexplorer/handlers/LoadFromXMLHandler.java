@@ -7,15 +7,13 @@ import org.eclipse.core.resources.IResource;
 import org.eclipse.emf.common.command.Command;
 import org.eclipse.jface.window.Window;
 import org.eclipse.ui.dialogs.ResourceListSelectionDialog;
-import org.eclipse.uml2.uml.Package;
 
 import ru.neodoc.content.ecore.alfresco.model.alfresco.presentation.AlfrescoEditorPlugin;
 import ru.neodoc.content.modeller.utils.JaxbUtils;
-import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.utils.CommonUtils;
 
-public class LoadFromXMLHandler extends UpdateFromXMLHandler {
+public class LoadFromXMLHandler extends UpdateFromXMLHandler2 {
 
 	public class LoadFromXMLCommand extends AbstractAlfrescoCommand {
 		
@@ -64,26 +62,19 @@ public class LoadFromXMLHandler extends UpdateFromXMLHandler {
 			}
 			
 			
+			ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Model theModel = AlfrescoProfile.ForPackage.Model._HELPER.findNearestFor(selectedPackage); 
 			if (result) {
-				model = AlfrescoUMLUtils.isModel(selectedPackage)
-						?selectedPackage
-						:AlfrescoUMLUtils.getNearestModel(selectedPackage);
+				if (theModel != null) {
+					model = theModel.getElementClassified();
+				}
 				if (model!=null && loadedModel!=null){
-					model.setValue(
-							AlfrescoUMLUtils.getStereotype(model, AlfrescoProfile.ForPackage.Model._NAME), 
-							AlfrescoProfile.ForPackage.Model.LOCATION, 
-							selectedXml.getFullPath().toString());
+					theModel.setLocation(selectedXml.getFullPath().toString());
 					model.setName(loadedModel.getName());
 				}
 			}
 			return result 
 					&& (model!=null)
-					&& CommonUtils.isValueable(
-							(String)AlfrescoUMLUtils.getStereotypeValue(
-									AlfrescoProfile.ForPackage.Model._NAME, 
-									model, 
-									AlfrescoProfile.ForPackage.Model.LOCATION)
-						); 
+					&& CommonUtils.isValueable(theModel.getLocation()); 
 		}
 		
 		@Override

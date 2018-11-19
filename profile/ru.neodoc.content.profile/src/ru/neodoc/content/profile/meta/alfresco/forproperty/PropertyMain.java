@@ -3,10 +3,6 @@ package ru.neodoc.content.profile.meta.alfresco.forproperty;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.eclipse.uml2.uml.Constraint;
-import org.eclipse.uml2.uml.Dependency;
-import org.eclipse.uml2.uml.Element;
-import org.eclipse.uml2.uml.NamedElement;
 import org.eclipse.uml2.uml.PrimitiveType;
 import org.eclipse.uml2.uml.Property;
 
@@ -17,16 +13,10 @@ import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForDependency.Constrai
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPrimitiveType.DataType;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.DdTextualDescription;
-import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchHelperFactory;
-import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchUtils;
 import ru.neodoc.content.profile.meta.alfresco.internal.TextualDescription;
 import ru.neodoc.content.utils.uml.profile.annotation.AImplements;
 import ru.neodoc.content.utils.uml.profile.meta.CompositeMetaObject;
 import ru.neodoc.content.utils.uml.profile.meta.ImplementationMetaObjectClassified;
-import ru.neodoc.content.utils.uml.search.converter.UMLSearchConvertibleList;
-import ru.neodoc.content.utils.uml.search.converter.UMLSearchConvertibleListImpl;
-import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilter;
-import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilterImpl;
 
 @AImplements(ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForProperty.PropertyMain.class)
 public class PropertyMain extends ImplementationMetaObjectClassified<Property>
@@ -36,6 +26,7 @@ public class PropertyMain extends ImplementationMetaObjectClassified<Property>
 	
 	protected AlfrescoProfile.ForNamedElement.ConstraintedObject<Property> _constraintedObject;
 	
+	@SuppressWarnings("unchecked")
 	public PropertyMain(CompositeMetaObject composite) {
 		super(composite);
 		TextualDescription impl = new TextualDescription(composite); 

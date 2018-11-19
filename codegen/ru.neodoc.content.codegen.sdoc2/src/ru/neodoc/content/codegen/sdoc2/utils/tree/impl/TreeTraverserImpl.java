@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-import org.eclipse.swt.SWT;
-
 import ru.neodoc.content.codegen.sdoc2.utils.Skippable;
 import ru.neodoc.content.codegen.sdoc2.utils.tree.Leaf;
 import ru.neodoc.content.codegen.sdoc2.utils.tree.SubTree;

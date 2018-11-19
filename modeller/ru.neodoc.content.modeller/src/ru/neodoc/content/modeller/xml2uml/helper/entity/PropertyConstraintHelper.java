@@ -11,7 +11,6 @@ import org.eclipse.uml2.uml.Element;
 import org.eclipse.uml2.uml.Namespace;
 
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractConstraintInConstraintedObjectHelper;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.utils.CommonUtils;
 

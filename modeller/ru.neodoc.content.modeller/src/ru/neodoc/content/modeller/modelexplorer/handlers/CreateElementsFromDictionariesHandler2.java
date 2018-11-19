@@ -22,7 +22,6 @@ import ru.neodoc.content.modeller.model.AlfrescoModelUtils;
 import ru.neodoc.content.modeller.ui.dialogs.AlfrescoNamespacesCheckedTreeDialog;
 import ru.neodoc.content.modeller.ui.dialogs.NS2EProgressMonitorDialog;
 import ru.neodoc.content.modeller.utils.ImportsAndDependenciesUpdater;
-import ru.neodoc.content.modeller.utils.NamespaceElementsCreator;
 import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
 import ru.neodoc.content.modeller.xml2uml.XML2UMLGenerator;
 import ru.neodoc.content.utils.uml.UMLUtils;

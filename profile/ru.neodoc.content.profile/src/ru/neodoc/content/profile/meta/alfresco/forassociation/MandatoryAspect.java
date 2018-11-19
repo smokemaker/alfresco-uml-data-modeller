@@ -13,7 +13,6 @@ import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchHelperFact
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.content.utils.uml.profile.annotation.AImplements;
 import ru.neodoc.content.utils.uml.profile.meta.CompositeMetaObject;
-import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotype;
 import ru.neodoc.content.utils.uml.profile.stereotype.StereotypedElement;
 import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilterMemberEndByAggregation;
 

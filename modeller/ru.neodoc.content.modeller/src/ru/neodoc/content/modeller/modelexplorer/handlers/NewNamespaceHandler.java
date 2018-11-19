@@ -17,7 +17,6 @@ import org.eclipse.swt.widgets.Text;
 import org.eclipse.uml2.uml.Package;
 
 import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
-import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtilsDeprecated;
 import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchHelperFactory;
 import ru.neodoc.content.utils.uml.search.filter.SearchFilterFactory;
 import ru.neodoc.content.utils.uml.search.helper.UMLSearchHelper;
@@ -108,7 +107,7 @@ public class NewNamespaceHandler extends AbstractAlfrescoHandler {
 				String vr = null;
 				
 				try {
-					URI u = new URI(txtUri.getText());
+					/*URI u = */new URI(txtUri.getText());
 				} catch (URISyntaxException use) {
 					vr = "Malformed URI \n";
 				}
@@ -158,8 +157,10 @@ public class NewNamespaceHandler extends AbstractAlfrescoHandler {
 		
 		@Override
 		protected void doRun() {
-			Package ns = AlfrescoUMLUtilsDeprecated.createNamespace(selectedPackage, (String)creationInfo.get("prefix"));
-			ns.setURI((String)creationInfo.get("uri"));
+			String nsPrefix = (String)creationInfo.get("prefix");
+			Package ns = AlfrescoUMLUtils.createNamespace(selectedPackage, nsPrefix);
+			if (ns!=null)
+				ns.setURI((String)creationInfo.get("uri"));
 		}
 	}
 	

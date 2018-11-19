@@ -1,7 +1,5 @@
 package ru.neodoc.content.utils.uml.profile.dataconverter;
 
-import java.util.List;
-
 public interface DataConverter<SourceClass, TargetClass> {
 	
 	public DataConverter<Object, Object> DEFAULT_CONVERTER = new DataConverter<Object, Object>() {

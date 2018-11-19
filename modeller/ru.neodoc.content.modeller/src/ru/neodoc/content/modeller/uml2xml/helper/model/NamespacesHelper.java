@@ -2,7 +2,6 @@ package ru.neodoc.content.modeller.uml2xml.helper.model;
 
 import org.alfresco.model.dictionary._1.Model;
 import org.alfresco.model.dictionary._1.Model.Namespaces;
-import org.eclipse.uml2.uml.Element;
 import org.eclipse.uml2.uml.Package;
 import ru.neodoc.content.modeller.uml2xml.helper.AbstractSubHelperForContainerSingleton;
 import ru.neodoc.content.modeller.utils.JaxbUtils;

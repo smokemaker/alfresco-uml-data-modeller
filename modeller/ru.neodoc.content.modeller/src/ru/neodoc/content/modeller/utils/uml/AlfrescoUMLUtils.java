@@ -9,7 +9,6 @@ import org.eclipse.uml2.uml.AggregationKind;
 import org.eclipse.uml2.uml.Association;
 import org.eclipse.uml2.uml.Class;
 import org.eclipse.uml2.uml.Element;
-import org.eclipse.uml2.uml.Generalization;
 import org.eclipse.uml2.uml.Model;
 import org.eclipse.uml2.uml.NamedElement;
 import org.eclipse.uml2.uml.Package;
@@ -20,16 +19,9 @@ import org.eclipse.uml2.uml.Stereotype;
 import org.eclipse.uml2.uml.Type;
 
 import ru.neodoc.content.modeller.model.AlfrescoModelUtils;
-import ru.neodoc.content.modeller.utils.NamespaceElementsCreator.AssociationInfo;
-import ru.neodoc.content.modeller.utils.NamespaceElementsCreator.DependencyInfo;
-import ru.neodoc.content.modeller.utils.NamespaceElementsCreator.DependencyInfo.DependencyType;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfileUtils;
 import ru.neodoc.content.utils.CommonUtils;
-import ru.neodoc.content.utils.uml.DecomposedAssociation;
-import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilterAssociationByTarget;
-import ru.neodoc.content.utils.uml.search.filter.UMLSearchFilterByName;
-import ru.neodoc.content.utils.uml.search.helper.UMLSearchHelper;
 
 public class AlfrescoUMLUtils extends AlfrescoProfileUtils {
 	
@@ -230,4 +222,41 @@ public class AlfrescoUMLUtils extends AlfrescoProfileUtils {
 		dependentPackage(source, target);
 	}
 
+	public static Package createNamespace(Package parent, String name){
+		AlfrescoProfile.ForPackage.Model model = AlfrescoProfile.ForPackage.Model._HELPER.findNearestFor(parent);
+		AlfrescoProfile.ForPackage.Namespace namespace;
+		if (model != null) {
+			namespace = model.getNamespace(name, false);
+			if (namespace != null)
+				return null;
+		}
+		namespace = model.getNamespace(name, true);
+		Package newPackage = namespace.getElementClassified();
+		
+		if (parent != model.getElementClassified()) {
+			newPackage.setNestingPackage(parent);
+		}
+		
+		AlfrescoModelUtils.createEmptyClassDiagram(parent, newPackage);
+		AlfrescoModelUtils.createEmptyPackageDiagram(newPackage, name);
+		
+		return newPackage;
+	} 
+
+	public static Package createModel(Package parent, String name){
+		Model umlModel = parent.getModel();
+		if (!AlfrescoProfile.isType(umlModel, AlfrescoProfile.ForModel.Alfresco.class))
+			return null;
+		Package modelPackage = AlfrescoUMLUtils.findModel(name, umlModel);
+		if (modelPackage != null)
+			return null;
+		Package newPackage = parent.createNestedPackage(name);
+		AlfrescoProfile.asType(newPackage, AlfrescoProfile.ForPackage.Model.class);
+		
+		AlfrescoModelUtils.createEmptyPackageDiagram(newPackage, name);
+		
+		return newPackage;
+	}
+
+	
 }

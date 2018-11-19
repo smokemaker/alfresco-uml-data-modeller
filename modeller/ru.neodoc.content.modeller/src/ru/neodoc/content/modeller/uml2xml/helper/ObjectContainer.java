@@ -86,13 +86,14 @@ public interface ObjectContainer<T> {
 				return result;
 			}
 			
+			@SuppressWarnings("unchecked")
 			@Override
-			public <T> ObjectContainer<T> findParent(Class<T> parentClass) {
+			public <P> ObjectContainer<P> findParent(Class<P> parentClass) {
 				ObjectContainer<?> current = getParent();
 				if (current!=null) {
 					if (current.hasObject())
 						if (parentClass.isAssignableFrom(current.getObject().getClass()))
-							return (ObjectContainer<T>)current;
+							return (ObjectContainer<P>)current;
 					return current.findParent(parentClass);
 				}
 				return null;
@@ -138,9 +139,10 @@ public interface ObjectContainer<T> {
 				return this.object!=null;
 			}
 			
+			@SuppressWarnings("unchecked")
 			@Override
-			public <T> T get(String name) {
-				return (T)data.get(name);
+			public <D> D get(String name) {
+				return (D)data.get(name);
 			}
 			
 			@Override
@@ -152,7 +154,7 @@ public interface ObjectContainer<T> {
 	
 	public ObjectContainer<?> getParent();
 	public List<ObjectContainer<?>> getHierarchy();
-	public <T> ObjectContainer<T> findParent(Class<T> parentClass);
+	public <P> ObjectContainer<P> findParent(Class<P> parentClass);
 	public List<ObjectContainer<?>> getChildren();
 	public List<ObjectContainer<?>> getChildren(Class<?> childClass);
 	
@@ -163,7 +165,7 @@ public interface ObjectContainer<T> {
 	public void setObject(T object);
 	public boolean hasObject();
 	
-	public <T> T get(String name);
+	public <D> D get(String name);
 	public void put(String name, Object object);
 	public default void put(Object object) {
 		if (object!=null)

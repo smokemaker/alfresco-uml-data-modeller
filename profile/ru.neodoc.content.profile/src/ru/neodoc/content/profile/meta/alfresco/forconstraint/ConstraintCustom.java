@@ -1,9 +1,6 @@
 package ru.neodoc.content.profile.meta.alfresco.forconstraint;
 
-import java.util.List;
-
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile.AlfrescoProfileLibrary.SimpleParameter;
 import ru.neodoc.content.utils.uml.profile.annotation.AImplements;
 import ru.neodoc.content.utils.uml.profile.meta.CompositeMetaObject;
 

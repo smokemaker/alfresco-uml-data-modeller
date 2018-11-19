@@ -2,7 +2,6 @@ package ru.neodoc.content.modeller.uml2xml.helper.constraints;
 
 import org.alfresco.model.dictionary._1.Model;
 import org.alfresco.model.dictionary._1.Model.Constraints;
-import org.eclipse.uml2.uml.Element;
 import org.eclipse.uml2.uml.Package;
 import ru.neodoc.content.modeller.uml2xml.helper.AbstractSubHelperForContainerSingleton;
 import ru.neodoc.content.modeller.uml2xml.helper.model.ModelHelper;

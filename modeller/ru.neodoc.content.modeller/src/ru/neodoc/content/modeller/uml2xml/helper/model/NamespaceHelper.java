@@ -9,7 +9,6 @@ import org.eclipse.uml2.uml.Package;
 
 import ru.neodoc.content.modeller.uml2xml.helper.AbstractSubHelper;
 import ru.neodoc.content.modeller.uml2xml.helper.ObjectContainer;
-import ru.neodoc.content.modeller.uml2xml.helper.ObjectContainer.FACTORY;
 import ru.neodoc.content.modeller.utils.JaxbUtils;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.utils.CommonUtils;

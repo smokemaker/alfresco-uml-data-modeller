@@ -35,7 +35,7 @@ public class DynamicEObjectImplToAny extends AbstractDataConverter<DynamicEObjec
 	
 	@Override
 	protected Object doConvert(DynamicEObjectImpl source, Class<? extends Object> exactTargetClass, Object... objects) {
-		CustomDataTypeClassDescriptor cdtcd = CustomDataTypeClassDescriptor.find(source.getClass());
+//		CustomDataTypeClassDescriptor cdtcd = CustomDataTypeClassDescriptor.find(source.getClass());
 		Map<Class<?>, Object> parameters = CommonUtils.toTypedMap(objects, true);
 		EClass eClass = (EClass)parameters.get(EClass.class);
 		if (eClass==null) {
@@ -74,7 +74,6 @@ public class DynamicEObjectImplToAny extends AbstractDataConverter<DynamicEObjec
 					EStructuralFeature feature = eClass.getEStructuralFeature(name);
 					if (feature==null)
 						continue;
-					int id = feature.getFeatureID();
 					Object value = source.eDynamicGet(feature, true); 
 					field.set(result, value);
 				} catch (Exception e) {

@@ -19,7 +19,6 @@ import ru.neodoc.content.codegen.sdoc2.utils.ReferencedElementDescriptor;
 import ru.neodoc.content.codegen.sdoc2.wrap.NamespaceWrapper;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Model;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
-import ru.neodoc.content.utils.CommonUtils;
 
 public class ResourceWriter extends AbstractWriter<NamespaceWrapper> {
 
@@ -90,7 +89,6 @@ public class ResourceWriter extends AbstractWriter<NamespaceWrapper> {
 	}
 	
 	protected void writeImports(StringBuffer sb, int level){
-		List<String> importList = new ArrayList<String>(imports); 
 		List<ImportedPackage> importedPackages = new ArrayList<>();
 		for (String imp: imports) {
 			ImportedPackage ip = new ImportedPackage(imp);

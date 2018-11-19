@@ -60,13 +60,13 @@ public class LoadDictionaryFromResourceAction extends StaticSelectionCommandActi
 
 		IWorkspaceRoot root = ResourcesPlugin.getWorkspace().getRoot();
 		
-		IPath relativeRoot = root.getFullPath();
+//		IPath relativeRoot = root.getFullPath();
 		if (editorPart!=null) {
-			IEditorInput editorInput = editorPart.getEditorInput();
-			if (editorInput instanceof IFileEditorInput){
+//			IEditorInput editorInput = editorPart.getEditorInput();
+/*			if (editorInput instanceof IFileEditorInput){
 				relativeRoot = ((IFileEditorInput)editorInput).getFile().getProject().getFullPath();
 			}
-				
+*/				
 		}
 		
 		Object[] objects = new Object[]{};

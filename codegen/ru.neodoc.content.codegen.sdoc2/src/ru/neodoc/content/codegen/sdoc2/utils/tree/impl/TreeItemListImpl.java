@@ -49,7 +49,7 @@ public class TreeItemListImpl<T> implements TreeItemList<T> {
 	}
 
 	@Override
-	public <T> T[] toArray(T[] a) {
+	public <AT> AT[] toArray(AT[] a) {
 		return list.toArray(a);
 	}
 

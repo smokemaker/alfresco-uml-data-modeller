@@ -8,9 +8,6 @@ import org.alfresco.model.dictionary._1.NamedValue;
 import org.eclipse.uml2.uml.Namespace;
 import org.eclipse.uml2.uml.OpaqueExpression;
 import org.eclipse.uml2.uml.UMLFactory;
-import org.eclipse.uml2.uml.ValueSpecification;
-
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.AlfrescoProfileLibrary.SimpleParameter;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForConstraint.ConstraintCustom;

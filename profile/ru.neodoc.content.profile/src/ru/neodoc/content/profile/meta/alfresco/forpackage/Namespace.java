@@ -5,8 +5,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.eclipse.ui.actions.BaseSelectionListenerAction;
-import org.eclipse.uml2.uml.Class;
 import org.eclipse.uml2.uml.Dependency;
 import org.eclipse.uml2.uml.Package;
 import org.eclipse.uml2.uml.PrimitiveType;
@@ -23,8 +21,6 @@ import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchUtils;
 import ru.neodoc.content.utils.uml.UMLUtils;
 import ru.neodoc.content.utils.uml.profile.annotation.AImplements;
 import ru.neodoc.content.utils.uml.profile.meta.CompositeMetaObject;
-import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotype;
-import ru.neodoc.content.utils.uml.search.converter.UMLSearchConverter;
 
 @AImplements(AlfrescoProfile.ForPackage.Namespace.class)
 public class Namespace extends PackageMainAbstract

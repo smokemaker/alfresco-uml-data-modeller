@@ -5,7 +5,6 @@ import java.util.List;
 
 import ru.neodoc.content.codegen.sdoc2.utils.tree.TreeItem;
 import ru.neodoc.content.codegen.sdoc2.utils.tree.TreeItemTransitionValidator;
-import ru.neodoc.content.codegen.sdoc2.utils.tree.TreeItem.AvailabilityProvider;
 
 public abstract class TreeItemImpl<T> implements TreeItem<T> {
 

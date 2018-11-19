@@ -9,7 +9,6 @@ import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForDependency.Constrai
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForDependency.ConstraintedInline;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPrimitiveType.DataType;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.Named;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.Namespaced;
 import ru.neodoc.content.utils.uml.profile.annotation.AImplements;
 import ru.neodoc.content.utils.uml.profile.meta.CompositeMetaObject;

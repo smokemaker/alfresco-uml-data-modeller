@@ -8,7 +8,6 @@ import org.eclipse.papyrus.uml.extensionpoints.library.IRegisteredLibrary;
 import org.eclipse.papyrus.uml.extensionpoints.library.RegisteredLibrary;
 import org.eclipse.swt.graphics.Image;
 
-import ru.neodoc.content.profile.alfresco.ui.ExtensionPoints;
 import ru.neodoc.content.utils.CommonUtils;
 
 public class RegisteredModel implements IRegisteredModel {

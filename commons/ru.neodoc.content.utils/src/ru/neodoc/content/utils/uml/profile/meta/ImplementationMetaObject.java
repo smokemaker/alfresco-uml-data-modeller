@@ -1,7 +1,6 @@
 package ru.neodoc.content.utils.uml.profile.meta;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.eclipse.emf.common.util.AbstractEList;
@@ -18,7 +17,6 @@ import ru.neodoc.content.utils.uml.profile.UMLProfile;
 import ru.neodoc.content.utils.uml.profile.annotation.AImplements;
 import ru.neodoc.content.utils.uml.profile.annotation.AStereotype;
 import ru.neodoc.content.utils.uml.profile.dataconverter.DataConverterRegistry;
-import ru.neodoc.content.utils.uml.profile.descriptor.CustomDataTypeClassDescriptor;
 import ru.neodoc.content.utils.uml.profile.descriptor.ProfileDescriptor;
 import ru.neodoc.content.utils.uml.profile.descriptor.PropertyDefaultValueDescriptor;
 import ru.neodoc.content.utils.uml.profile.descriptor.PropertyDescriptor;
@@ -383,7 +381,6 @@ public abstract class ImplementationMetaObject extends MetaObject implements Pro
 		return externalValue;
 	}
 	
-	@SuppressWarnings("unchecked")
 	public <T> T getAttribute(String name, T defaultValue) {
 		T result = getAttribute(name); 
 		return result==null?defaultValue:result;

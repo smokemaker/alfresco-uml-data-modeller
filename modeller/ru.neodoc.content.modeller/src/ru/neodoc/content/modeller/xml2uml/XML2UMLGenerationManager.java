@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Set;
 
 import org.alfresco.model.dictionary._1.Model;
-import org.alfresco.model.dictionary._1.Model.DataTypes.DataType;
 import org.eclipse.uml2.uml.Element;
 import org.eclipse.uml2.uml.NamedElement;
 import org.eclipse.uml2.uml.Package;
@@ -19,13 +18,9 @@ import ru.neodoc.content.modeller.tasks.ExecutionCallback;
 import ru.neodoc.content.modeller.tasks.ExecutionContext;
 import ru.neodoc.content.modeller.tasks.ExecutionResult;
 import ru.neodoc.content.modeller.tasks.ExecutionResultImpl;
-import ru.neodoc.content.modeller.tasks.Executor;
 import ru.neodoc.content.modeller.tasks.ExtendedExecutor;
 import ru.neodoc.content.modeller.tasks.ExtendedSubTask;
 import ru.neodoc.content.modeller.tasks.ExtendedTaskDescriptor;
-import ru.neodoc.content.modeller.tasks.SubtaskDescriptor;
-import ru.neodoc.content.modeller.tasks.TaskDescriptor;
-import ru.neodoc.content.modeller.utils.NamespaceElementsCreator;
 import ru.neodoc.content.modeller.utils.NamespaceSourceInfo;
 import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractHelper;
@@ -142,6 +137,7 @@ public class XML2UMLGenerationManager extends ExtendedExecutor {
 			put(this);
 		}
 		
+		@SuppressWarnings("unchecked")
 		public List<Namespace> namespacesToCreate(){
 			return (List<Namespace>) get(this.P_namespacesToCreate);
 		}
@@ -151,6 +147,7 @@ public class XML2UMLGenerationManager extends ExtendedExecutor {
 			return this;
 		}
 
+		@SuppressWarnings("unchecked")
 		public Map<String, NamespaceSourceInfo> sources(){
 			return (Map<String, NamespaceSourceInfo>) get(this.P_sources);
 		}
@@ -324,8 +321,8 @@ public class XML2UMLGenerationManager extends ExtendedExecutor {
 			
 		}
 
+		@SuppressWarnings("unchecked")
 		protected boolean tryToSatisfy(RelationInfo di){
-			@SuppressWarnings("unchecked")
 			ModelObject<Object> mo = (ModelObject<Object>)di.target;
 			
 			Package root = context().get(ComplexRegistry.class).getUmlRoot();
@@ -391,7 +388,7 @@ public class XML2UMLGenerationManager extends ExtendedExecutor {
 			totalCount(context().get(ComplexRegistry.class).getObjectRegistry().size());
 		}
 		
-		@SuppressWarnings("rawtypes")
+		@SuppressWarnings({ "rawtypes", "unchecked" })
 		@Override
 		public ExecutionResult execute(ExecutionCallback callback) {
 
@@ -401,7 +398,6 @@ public class XML2UMLGenerationManager extends ExtendedExecutor {
 			ModelHelper modelHelper = new ModelHelper();
 			modelHelper.setExecutionContext(context());
 			for (String model: models){
-				@SuppressWarnings("unchecked")
 				ModelObject<Model> mo = (ModelObject<Model>)context().get(ComplexRegistry.class).getObjectRegistry().get(model);
 				if (!modelHelper.deployToUML(mo))
 					delayed.add(mo);

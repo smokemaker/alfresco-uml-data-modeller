@@ -90,13 +90,12 @@ public class NamespaceImportDialog extends PackageImportTreeSelectionDialog {
 	
 	@Override
 	protected Collection<? extends Element> getChildren(Package package_) {
-		Collection<Package> result = new java.util.ArrayList<Package>();
 
 		StereotypedElement se = AbstractProfile.asUntyped(package_);
 		
 		AlfrescoProfile.ForModel.Alfresco alfresco = se.get(Alfresco.class); 
 		AlfrescoProfile.ForPackage.Model model = se.get(AlfrescoProfile.ForPackage.Model.class); 
-		AlfrescoProfile.ForPackage.Namespace namespace = se.get(AlfrescoProfile.ForPackage.Namespace.class);
+		se.get(AlfrescoProfile.ForPackage.Namespace.class);
 		
 		if (alfresco!=null)
 			return AlfrescoSearchHelperFactory.getModelSearcher().startWith(package_).search();

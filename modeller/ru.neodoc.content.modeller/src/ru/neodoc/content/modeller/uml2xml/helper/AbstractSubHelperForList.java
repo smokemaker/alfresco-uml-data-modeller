@@ -1,6 +1,5 @@
 package ru.neodoc.content.modeller.uml2xml.helper;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.uml2.uml.Element;

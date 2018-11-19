@@ -12,7 +12,6 @@ import org.eclipse.uml2.uml.PackageImport;
 import ru.neodoc.content.modeller.tasks.ExecutionCallback;
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractRelationSubHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.entity.ModelHelper;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo.DependencyType;

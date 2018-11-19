@@ -1,17 +1,8 @@
 package ru.neodoc.content.codegen;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import org.eclipse.core.runtime.IConfigurationElement;
-import org.eclipse.core.runtime.IExtension;
-import org.eclipse.core.runtime.IExtensionPoint;
-import org.eclipse.core.runtime.IExtensionRegistry;
-import org.eclipse.core.runtime.Platform;
-import org.eclipse.core.runtime.Status;
-
 import ru.neodoc.eclipse.extensionpoints.ExtensionsRegistry;
-import ru.neodoc.eclipse.extensionpoints.IConfigurationWrapper;
 
 public class CodegenHelper {
 	

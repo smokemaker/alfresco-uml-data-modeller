@@ -35,6 +35,7 @@ public abstract class AbstractConstraintRefHelper<ContainerType>
 		if (!ModelObject.hasElement(sourceModelObject, targetModelObject))
 			return null;
 		
+		@SuppressWarnings("unchecked")
 		AlfrescoProfile.ForNamedElement.ConstraintedObject<NamedElement> constraintedObject 
 				= AbstractProfile.asUntyped(sourceModelObject.getElement()).get(AlfrescoProfile.ForNamedElement.ConstraintedObject.class);
 		AlfrescoProfile.ForConstraint.ConstraintMain constraint = 
@@ -69,6 +70,7 @@ public abstract class AbstractConstraintRefHelper<ContainerType>
 
 	protected Dependency getElementFromSourceModelObject(ModelObject<?> sourceModelObject, org.eclipse.uml2.uml.Constraint targetConstraint) {
 			
+			@SuppressWarnings("unchecked")
 			ConstraintedObject<NamedElement> constraintedObject = AbstractProfile.asUntyped(sourceModelObject.getElement())
 					.get(ConstraintedObject.class);
 			if (constraintedObject==null)

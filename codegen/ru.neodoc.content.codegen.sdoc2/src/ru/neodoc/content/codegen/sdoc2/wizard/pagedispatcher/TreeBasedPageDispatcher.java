@@ -103,7 +103,6 @@ public class TreeBasedPageDispatcher implements PageDispatcher, Configurable,
 
 	@Override
 	public DispatchedPage getNext(DispatchedPage current) {
-		@SuppressWarnings("unchecked")
 		TreeTraverser<DispatchedPage> traverser = ((Tree<DispatchedPage>)tree.getRoot()).startNewTraverse();
 		traverser.setCurrent(current);
 		try {

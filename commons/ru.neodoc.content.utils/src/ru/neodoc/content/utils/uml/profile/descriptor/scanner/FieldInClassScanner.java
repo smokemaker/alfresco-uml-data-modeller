@@ -5,6 +5,7 @@ import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
 
+@SuppressWarnings("rawtypes")
 public class FieldInClassScanner extends AbstractScanner<Class, Field> {
 
 	public FieldInClassScanner() {

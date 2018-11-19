@@ -6,7 +6,7 @@ import org.eclipse.uml2.uml.Package;
 
 import ru.neodoc.content.modeller.uml2xml.helper.AbstractHelper;
 import ru.neodoc.content.modeller.uml2xml.helper.ObjectContainer;
-import ru.neodoc.content.modeller.utils.UML2XML;
+import ru.neodoc.content.modeller.utils.xml.AlfrescoXMLUtils;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 
 public class ModelHelper extends AbstractHelper<Package, Model, AlfrescoProfile.ForPackage.Model> {
@@ -28,7 +28,7 @@ public class ModelHelper extends AbstractHelper<Package, Model, AlfrescoProfile.
 	@Override
 	protected Model doFillObjectProperties(Model object, Package element,
 			AlfrescoProfile.ForPackage.Model stereotyped) {
-		UML2XML.fillModel(element, object);
+		AlfrescoXMLUtils.fillModel(element, object);
 		return object;
 	}
 

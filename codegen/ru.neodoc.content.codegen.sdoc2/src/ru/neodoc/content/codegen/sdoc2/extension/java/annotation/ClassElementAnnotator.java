@@ -8,7 +8,6 @@ import ru.neodoc.content.codegen.sdoc2.generator.annotation.AnnotationInfo;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForAssociation.MandatoryAspect;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForClass.ClassMain;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
-import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotype;
 
 public class ClassElementAnnotator extends ElementAnnotator<ClassMain> {
 

@@ -29,7 +29,6 @@ import org.alfresco.model.dictionary._1.Model;
 import org.alfresco.model.dictionary._1.ObjectFactory;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.runtime.CoreException;
-import org.eclipse.persistence.jaxb.JAXBBinder;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 

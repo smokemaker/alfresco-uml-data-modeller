@@ -5,7 +5,6 @@ import java.util.Collections;
 import java.util.List;
 
 import org.eclipse.uml2.uml.Constraint;
-import org.eclipse.uml2.uml.Dependency;
 import org.eclipse.uml2.uml.Element;
 
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;

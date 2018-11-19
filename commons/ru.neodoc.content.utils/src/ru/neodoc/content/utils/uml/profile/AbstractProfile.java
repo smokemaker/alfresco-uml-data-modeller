@@ -3,16 +3,11 @@ package ru.neodoc.content.utils.uml.profile;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
-import org.eclipse.emf.ecore.impl.DynamicEObjectImpl;
 import org.eclipse.emf.ecore.resource.ResourceSet;
-import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.papyrus.uml.extensionpoints.profile.IRegisteredProfile;
 import org.eclipse.papyrus.uml.extensionpoints.profile.RegisteredProfile;
 import org.eclipse.papyrus.uml.tools.utils.PackageUtil;
@@ -22,16 +17,9 @@ import org.eclipse.uml2.uml.Profile;
 import org.eclipse.uml2.uml.ProfileApplication;
 import org.eclipse.uml2.uml.Stereotype;
 
-import ru.neodoc.content.utils.CommonUtils;
-import ru.neodoc.content.utils.uml.profile.annotation.ACustomDataTypeClass;
 import ru.neodoc.content.utils.uml.profile.annotation.ALibrary;
 import ru.neodoc.content.utils.uml.profile.annotation.AProfile;
-import ru.neodoc.content.utils.uml.profile.annotation.AStereotype;
-import ru.neodoc.content.utils.uml.profile.annotation.AStereotype.AApplication;
-import ru.neodoc.content.utils.uml.profile.dataconverter.AnyToDynamicEObjectImpl;
-import ru.neodoc.content.utils.uml.profile.dataconverter.DataConverterRegistry;
 import ru.neodoc.content.utils.uml.profile.descriptor.ProfileDescriptor;
-import ru.neodoc.content.utils.uml.profile.descriptor.PropertyDescriptor;
 import ru.neodoc.content.utils.uml.profile.descriptor.StereotypeDescriptor;
 import ru.neodoc.content.utils.uml.profile.library.ProfileLibrary;
 import ru.neodoc.content.utils.uml.profile.meta.CompositeMetaObject;
@@ -233,6 +221,8 @@ public abstract class AbstractProfile implements UMLProfile {
 	}
 
 	public static boolean isType(Element element, Class<? extends ProfileStereotype> clazz) {
+		if (element == null)
+			return false;
 		CompositeMetaObject cmo = getFor(element);
 		return cmo.has(clazz);
 	}

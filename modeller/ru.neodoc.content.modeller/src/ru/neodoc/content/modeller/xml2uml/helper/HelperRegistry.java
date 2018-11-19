@@ -78,7 +78,6 @@ public class HelperRegistry {
 	
 	@SuppressWarnings("unchecked")
 	public <T> AbstractHelper<T, ?> getProcessorFor(Class<T> objectClass){
-		@SuppressWarnings("unchecked")
 		Class<? extends AbstractHelper<?, ?>> clazz = helperClassCache.get(objectClass);
 		if (clazz == null) {
 			clazz = (Class<? extends AbstractHelper<T, ?>>)getProcessorClassFor(objectClass);

@@ -1,7 +1,6 @@
 package ru.neodoc.content.utils.uml.profile.descriptor;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -98,7 +97,7 @@ public abstract class AbstractDescriptor<JavaElementClass, UMLElementClass exten
 	
 	public abstract boolean isValid();
 	
-	@SuppressWarnings({ "unchecked", "rawtypes", "unlikely-arg-type" })
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public void addOwned(AbstractDescriptor<?, ?> ownedDescriptor) {
 		InnerStorage is = innerStorages.get(ownedDescriptor.getClass());
 		if (is==null)
@@ -110,6 +109,7 @@ public abstract class AbstractDescriptor<JavaElementClass, UMLElementClass exten
 		return getByFullName(PrefixedName.name(name, "::"), clazz);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public <T extends AbstractDescriptor<?, ?>> T getByFullName(String name, Class<T> clazz){
 		InnerStorage<T, ?> storage = (InnerStorage<T, ?>)innerStorages.get(clazz);
 		if (storage==null)
@@ -117,6 +117,7 @@ public abstract class AbstractDescriptor<JavaElementClass, UMLElementClass exten
 		return (T)storage.getByName(name);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public <T extends AbstractDescriptor<J, ?>, J> T getByElement(J element, Class<T> clazz){
 		InnerStorage<T, J> storage = (InnerStorage<T, J>)innerStorages.get(clazz);
 		if (storage==null)
@@ -124,6 +125,7 @@ public abstract class AbstractDescriptor<JavaElementClass, UMLElementClass exten
 		return (T)storage.getByElement(element);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public <T extends AbstractDescriptor<?, ?>> List<T> getAll(Class<T> clazz){
 		InnerStorage<T, ?> storage = (InnerStorage<T, ?>)innerStorages.get(clazz);
 		if (storage==null)

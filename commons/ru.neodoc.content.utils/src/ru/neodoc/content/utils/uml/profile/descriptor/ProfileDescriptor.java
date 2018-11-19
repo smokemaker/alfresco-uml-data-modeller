@@ -16,6 +16,7 @@ import ru.neodoc.content.utils.uml.profile.annotation.AStereotype;
 import ru.neodoc.content.utils.uml.profile.descriptor.scanner.ClassInClassScanner;
 import ru.neodoc.content.utils.uml.profile.registry.ProfileRegistry;
 
+@SuppressWarnings("rawtypes")
 public class ProfileDescriptor extends AbstractDescriptor<Class, Profile> {
 	
 	protected UMLProfile umlProfile;

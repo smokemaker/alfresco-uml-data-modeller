@@ -6,7 +6,7 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.uml2.uml.Package;
 
-import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtilsDeprecated;
+import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Model;
 import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchHelperFactory;
 import ru.neodoc.content.utils.uml.search.filter.SearchFilterFactory;
@@ -83,7 +83,7 @@ public class NewModelHandler extends NewNamespaceHandler {
 		
 		@Override
 		protected void doRun() {
-			Package model = AlfrescoUMLUtilsDeprecated.createModel(
+			Package model = AlfrescoUMLUtils.createModel(
 					selectedPackage, 
 					(String)creationInfo.get("prefix") + ":" + (String)creationInfo.get("name"));
 			Model theModel = Model._HELPER.getFor(model);

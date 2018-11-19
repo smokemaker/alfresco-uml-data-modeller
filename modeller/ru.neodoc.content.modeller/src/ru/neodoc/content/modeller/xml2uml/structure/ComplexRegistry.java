@@ -49,6 +49,7 @@ public class ComplexRegistry {
 		singletons.put(obj.getClass(), obj);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public <T> T get(Class<T> clazz){
 		return (T)singletons.get(clazz);
 	}

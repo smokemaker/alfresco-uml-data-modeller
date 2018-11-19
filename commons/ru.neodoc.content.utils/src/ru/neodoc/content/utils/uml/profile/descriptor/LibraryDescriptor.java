@@ -3,7 +3,6 @@ package ru.neodoc.content.utils.uml.profile.descriptor;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.eclipse.emf.ecore.impl.DynamicEObjectImpl;
 import org.eclipse.uml2.uml.Element;
 import org.eclipse.uml2.uml.Package;
 import org.eclipse.uml2.uml.Profile;
@@ -11,11 +10,10 @@ import org.eclipse.uml2.uml.Profile;
 import ru.neodoc.content.utils.CommonUtils;
 import ru.neodoc.content.utils.uml.profile.annotation.ACustomDataTypeClass;
 import ru.neodoc.content.utils.uml.profile.annotation.ALibrary;
-import ru.neodoc.content.utils.uml.profile.dataconverter.AnyToDynamicEObjectImpl;
-import ru.neodoc.content.utils.uml.profile.dataconverter.DataConverterRegistry;
 import ru.neodoc.content.utils.uml.profile.descriptor.scanner.ClassInClassScanner;
 import ru.neodoc.content.utils.uml.search.UMLSearchUtils;
 
+@SuppressWarnings("rawtypes")
 public class LibraryDescriptor extends AbstractOwnedDescriptor<Class, org.eclipse.uml2.uml.Package, ProfileDescriptor> {
 
 	protected Map<String, Class<?>> customDataTypeClasses = new HashMap<>();

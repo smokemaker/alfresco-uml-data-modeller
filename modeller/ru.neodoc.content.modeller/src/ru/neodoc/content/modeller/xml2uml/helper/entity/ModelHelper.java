@@ -110,6 +110,7 @@ public class ModelHelper extends AbstractHelper<Model, Package> {
 		return true;
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	protected ModelObject<Model> store(ModelObject<Model> modelObject) {
 		complexRegistry().getObjectRegistry().add(modelObject);

@@ -8,13 +8,9 @@ import org.alfresco.model.dictionary._1.Constraint;
 import org.alfresco.model.dictionary._1.Model;
 import org.eclipse.uml2.uml.Namespace;
 import org.eclipse.uml2.uml.Package;
-import org.eclipse.uml2.uml.UMLFactory;
-
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractConstraintHelper;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.utils.CommonUtils;
-import ru.neodoc.content.utils.PrefixedName;
 import ru.neodoc.content.utils.uml.search.UMLSearchUtils;
 
 public class ModelConstraintHelper extends AbstractConstraintHelper<Model> {

@@ -4,7 +4,6 @@ import org.eclipse.uml2.uml.PrimitiveType;
 
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.DdTextualDescription;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.Named;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.Internal.Namespaced;
 import ru.neodoc.content.utils.uml.profile.annotation.AImplements;
 import ru.neodoc.content.utils.uml.profile.meta.CompositeMetaObject;

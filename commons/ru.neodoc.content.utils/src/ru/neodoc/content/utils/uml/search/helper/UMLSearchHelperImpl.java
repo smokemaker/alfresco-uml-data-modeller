@@ -36,7 +36,6 @@ public abstract class UMLSearchHelperImpl<ContainerClass extends Element, Target
 	/* (non-Javadoc)
 	 * @see ru.neodoc.content.modeller.utils.uml.UMLSearchHelper#search()
 	 */
-	@SuppressWarnings("unchecked")
 	@Override
 	public UMLSearchConvertibleList<? extends TargetClass> search(){
 		UMLSearchConvertibleList<TargetClass> result = new UMLSearchConvertibleListImpl<>();

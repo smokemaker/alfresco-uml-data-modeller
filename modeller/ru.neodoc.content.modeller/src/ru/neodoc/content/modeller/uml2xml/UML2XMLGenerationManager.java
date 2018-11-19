@@ -1,6 +1,6 @@
 package ru.neodoc.content.modeller.uml2xml;
 
-import java.io.StringBufferInputStream;
+import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -29,9 +29,9 @@ import ru.neodoc.content.modeller.uml2xml.helper.Preloader;
 import ru.neodoc.content.modeller.uml2xml.helper.model.ModelHelper;
 import ru.neodoc.content.modeller.utils.JaxbUtils;
 import ru.neodoc.content.modeller.utils.JaxbUtils.JaxbHelper;
+import ru.neodoc.content.modeller.utils.xml.AlfrescoXMLUtils;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForNamedElement.ConstraintedObject;
-import ru.neodoc.content.modeller.utils.UML2XML;
 
 public class UML2XMLGenerationManager extends ExtendedExecutor {
 
@@ -185,7 +185,7 @@ public class UML2XMLGenerationManager extends ExtendedExecutor {
 			IFile result = files[0];
 			if (!result.exists())
 				try {
-					result.create(new StringBufferInputStream(""), true, null);
+					result.create(new ByteArrayInputStream("".getBytes()), true, null);
 				} catch (Exception e) {
 					ContentModellerPlugin.getDefault().log(e);
 					return (new ExecutionResultImpl())
@@ -216,7 +216,7 @@ public class UML2XMLGenerationManager extends ExtendedExecutor {
 			}
 			
 			if (xmlModel == null) {
-				xmlModel = UML2XML.emptyModel(context().model());
+				xmlModel = AlfrescoXMLUtils.emptyModel(context().model());
 				try {
 					JaxbUtils.write(xmlModel, file);
 					helper = JaxbUtils.readModel(file);
@@ -239,7 +239,7 @@ public class UML2XMLGenerationManager extends ExtendedExecutor {
 			for (AlfrescoProfile.ForPackage.Namespace namespace: theModel.getAllNamespaces()) {
 				for (AlfrescoProfile.ForClass.ClassMain classMain: namespace.getAllClasses()) {
 					
-					Collection elementsAdded = ((Collection)classMain.getElement().eGet(UMLPackage.eINSTANCE.getClass_NestedClassifier()));
+					Collection<?> elementsAdded = ((Collection<?>)classMain.getElement().eGet(UMLPackage.eINSTANCE.getClass_NestedClassifier()));
 					
 					List<Element> elementsToMove = new ArrayList<>();
 					List<Element> elementsMoved = new ArrayList<>();
@@ -269,7 +269,9 @@ public class UML2XMLGenerationManager extends ExtendedExecutor {
 					for (Element element: elementsToMove) {
 						if (!elementsAdded.contains(element))
 							try {
-								((Collection)classMain.getElement().eGet(UMLPackage.eINSTANCE.getClass_NestedClassifier())).add(element);
+								@SuppressWarnings("unchecked")
+								Collection<Object> c = (Collection<Object>)classMain.getElement().eGet(UMLPackage.eINSTANCE.getClass_NestedClassifier());
+								c.add((Object)element);
 							} catch (Exception e) {
 								continue;
 							}

@@ -20,12 +20,12 @@ public class CompositeDataConverter<SourceType, TargetType> implements DataConve
 		this.chain.add(dataConverter);
 	}
 	
-	@SuppressWarnings("unchecked")
 	@Override
 	public TargetType convert(SourceType source, Object...objects) {
 		return convert(source, this.targetClass, objects);
 	}
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public TargetType convert(SourceType source, Class<? extends TargetType> exactTargetClass, Object...objects) {
 		Object value = source;

@@ -1,7 +1,5 @@
 package ru.neodoc.content.utils.uml.profile.dataconverter;
 
-import ru.neodoc.content.utils.CommonUtils;
-
 public class StringToBoolean extends AbstractFromStringConverter<Boolean> {
 
 	public StringToBoolean() {

@@ -8,9 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.eclipse.emf.ecore.resource.ResourceSet;
-import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
-import org.eclipse.ui.internal.views.markers.AllMarkersSeverityAndDescriptionConfigurationArea;
 import org.eclipse.uml2.uml.Profile;
 import org.eclipse.uml2.uml.Stereotype;
 
@@ -18,7 +15,6 @@ import ru.neodoc.content.utils.uml.profile.UMLProfile;
 import ru.neodoc.content.utils.uml.profile.annotation.AStereotype;
 import ru.neodoc.content.utils.uml.profile.annotation.AStereotype.AApplication;
 import ru.neodoc.content.utils.uml.profile.descriptor.AbstractDescriptor;
-import ru.neodoc.content.utils.uml.profile.descriptor.AbstractOwnedDescriptor;
 import ru.neodoc.content.utils.uml.profile.descriptor.ProfileDescriptor;
 import ru.neodoc.content.utils.uml.profile.descriptor.PropertyDescriptor;
 import ru.neodoc.content.utils.uml.profile.descriptor.StereotypeDescriptor;

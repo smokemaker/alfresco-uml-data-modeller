@@ -4,21 +4,13 @@ package ru.neodoc.content.modeller.model;
  */
 
 
-import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.eclipse.core.resources.IContainer;
-import org.eclipse.core.resources.IFile;
-import org.eclipse.core.resources.IFolder;
-import org.eclipse.core.resources.IProject;
-import org.eclipse.core.resources.IWorkspaceRoot;
-import org.eclipse.core.resources.ResourcesPlugin;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.Path;
-import org.eclipse.core.runtime.Platform;
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.util.ECollections;
@@ -41,11 +33,9 @@ import org.eclipse.papyrus.infra.internationalization.InternationalizationLibrar
 import org.eclipse.papyrus.infra.internationalization.common.utils.InternationalizationPreferencesUtils;
 import org.eclipse.papyrus.infra.internationalization.utils.InternationalizationResourceOptionsConstants;
 
-import ru.neodoc.content.ecore.alfresco.model.AlfrescoModelHelper;
 import ru.neodoc.content.ecore.alfresco.model.alfresco.AlfrescoFactory;
 import ru.neodoc.content.ecore.alfresco.model.alfresco.AlfrescoPackage;
 import ru.neodoc.content.ecore.alfresco.model.alfresco.dictionaries.Dictionaries;
-import ru.neodoc.content.ecore.alfresco.model.alfresco.presentation.AlfrescoEditorPlugin;
 import ru.neodoc.content.modeller.ContentModellerPlugin;
 import ru.neodoc.content.modeller.preferences.PreferenceConstants;
 
@@ -122,8 +112,8 @@ public class AlfrescoModel extends AbstractBaseModel implements IModel {
 		 * copy css file
 		 */
 		
-		IPath path = fullPath.addFileExtension(CSS_FILE_EXTENSION);
-/*		IWorkspaceRoot wsRoot = ResourcesPlugin.getWorkspace().getRoot();
+/*		IPath path = fullPath.addFileExtension(CSS_FILE_EXTENSION);
+		IWorkspaceRoot wsRoot = ResourcesPlugin.getWorkspace().getRoot();
 		String cssFileLocation = "";
 		try{
 			String[] sPath = path.makeRelative().toString().split("/");

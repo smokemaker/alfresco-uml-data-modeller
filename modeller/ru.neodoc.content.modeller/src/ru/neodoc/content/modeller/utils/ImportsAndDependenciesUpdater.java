@@ -130,16 +130,9 @@ public class ImportsAndDependenciesUpdater implements IRunnableWithProgress {
 		}
 		
 		for (Package p: namespacesToImport) {
-//			ContentModellerPlugin.getDefault().log("importing namespace: " + p.getName());
 			try {
-/*				ContentModellerPlugin.getDefault().log(">>> namespace: " + 
-						(Namespace._HELPER.getFor(p)==null?"null":Namespace._HELPER.getFor(p).getClass().getName()));
-				ContentModellerPlugin.getDefault().log(">>> model: " + 
-						(theModel==null?"null":theModel.getClass().getName()));
-*/				ImportNamespace in = theModel.importNamespace(Namespace._HELPER.getFor(p));
-/*				ContentModellerPlugin.getDefault().log(">>> result: " + 
-						(in==null?"null":in.getClass().getName()));
-*/			} catch (Exception e) {
+				theModel.importNamespace(Namespace._HELPER.getFor(p));
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
@@ -147,7 +140,6 @@ public class ImportsAndDependenciesUpdater implements IRunnableWithProgress {
 		for (PackageImport pi: importsToRemove)
 			pi.destroy();
 		
-//		ContentModellerPlugin.getDefault().log("updateModelImports FINISHED");
 	}
 	
 	protected void updateModelDependencies(Package model){

@@ -4,11 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.alfresco.model.dictionary._1.Property.Constraints;
-import org.eclipse.uml2.uml.Constraint;
 import org.eclipse.uml2.uml.Dependency;
-import org.eclipse.uml2.uml.Property;
-
 import ru.neodoc.content.modeller.uml2xml.helper.ObjectContainer;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForDependency.Constrainted;

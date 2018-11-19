@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.eclipse.uml2.uml.Element;
 
-import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.content.utils.uml.profile.UMLProfile;
 
 public interface StereotypedElement {

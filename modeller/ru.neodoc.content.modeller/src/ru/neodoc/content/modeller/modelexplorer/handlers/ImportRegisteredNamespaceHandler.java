@@ -13,7 +13,6 @@ import org.eclipse.emf.ecore.resource.ResourceSet;
 import org.eclipse.gmf.runtime.common.core.command.ICommand;
 import org.eclipse.jface.window.Window;
 import org.eclipse.papyrus.infra.emf.utils.EMFHelper;
-import org.eclipse.papyrus.uml.extensionpoints.Registry;
 import org.eclipse.papyrus.uml.extensionpoints.library.FilteredRegisteredLibrariesSelectionDialog;
 import org.eclipse.papyrus.uml.extensionpoints.library.IRegisteredLibrary;
 import org.eclipse.papyrus.uml.extensionpoints.utils.Util;
@@ -33,7 +32,6 @@ import ru.neodoc.content.utils.CommonUtils;
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.content.utils.uml.profile.stereotype.StereotypedElement;
 import ru.neodoc.org.eclipse.papyrus.uml.importt.handlers.ImportRegisteredPackageHandler;
-import ru.neodoc.org.eclipse.papyrus.uml.importt.ui.PackageImportDialog;
 
 public class ImportRegisteredNamespaceHandler extends ImportRegisteredPackageHandler {
 

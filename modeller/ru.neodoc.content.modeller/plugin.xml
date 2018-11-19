@@ -204,7 +204,7 @@
             id="ru.neodoc.content.modeller.update.imports.dependencies"
             name="Update imports and dependencies">
       </command>
-      <command
+      <!--command
             categoryId="org.eclipse.papyrus.editor.category"
             description="Export to XML [OLD]"
             id="ru.neodoc.content.modeller.alfresco.export.xml"
@@ -215,7 +215,7 @@
             description="Export to new XML [OLD]"
             id="ru.neodoc.content.modeller.alfresco.export.xml.new"
             name="Export to new XML [OLD]">
-      </command>
+      </command-->
       <command
             categoryId="org.eclipse.papyrus.editor.category"
             description="Export to XML"
@@ -307,7 +307,7 @@
             </and>
          </activeWhen>
       </handler>
-      <handler
+      <!--handler
             class="ru.neodoc.content.modeller.modelexplorer.handlers.CreateElementsFromDictionariesHandler"
             commandId="ru.neodoc.content.modeller.alfresco.elements.from.dictionaries.old">
          <activeWhen>
@@ -328,7 +328,7 @@
                </count>
             </and>
          </activeWhen>
-      </handler>
+      </handler-->
       <handler
             class="ru.neodoc.content.modeller.modelexplorer.handlers.UpdateImportsAndDependenciesHandler"
             commandId="ru.neodoc.content.modeller.update.imports.dependencies">
@@ -380,7 +380,7 @@
             </and>
          </activeWhen>
       </handler>
-      <handler
+      <!--handler
             class="ru.neodoc.content.modeller.modelexplorer.handlers.ExportToXMLHandler"
             commandId="ru.neodoc.content.modeller.alfresco.export.xml">
          <activeWhen>
@@ -423,7 +423,7 @@
                </count>
             </and>
          </activeWhen>
-      </handler>
+      </handler-->
       <handler
             class="ru.neodoc.content.modeller.modelexplorer.handlers.ExportToNewXMLHandler"
             commandId="ru.neodoc.content.modeller.alfresco.export.xml.new">
@@ -534,7 +534,7 @@
             </and>
          </activeWhen>
       </handler>
-      <handler
+      <!--handler
             class="ru.neodoc.content.modeller.modelexplorer.handlers.UpdateFromXMLHandler"
             commandId="ru.neodoc.content.modeller.alfresco.import.xml">
          <activeWhen>
@@ -574,7 +574,7 @@
                </with>
             </and>
          </activeWhen>
-      </handler>
+      </handler-->
       <handler
             class="ru.neodoc.content.modeller.modelexplorer.handlers.UpdateFromXMLHandler2"
             commandId="ru.neodoc.content.modeller.alfresco.import.xml2">

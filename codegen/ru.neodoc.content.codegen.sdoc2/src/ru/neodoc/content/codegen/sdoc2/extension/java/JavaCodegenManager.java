@@ -11,7 +11,6 @@ import org.eclipse.core.runtime.Platform;
 import org.eclipse.core.runtime.Status;
 
 import ru.neodoc.content.codegen.CodegenPlugin;
-import ru.neodoc.content.codegen.SourceCodeGeneratorInfo;
 import ru.neodoc.content.codegen.sdoc2.SdocCodegenPlugin;
 import ru.neodoc.content.codegen.sdoc2.config.Configurable;
 import ru.neodoc.content.codegen.sdoc2.config.Configuration;

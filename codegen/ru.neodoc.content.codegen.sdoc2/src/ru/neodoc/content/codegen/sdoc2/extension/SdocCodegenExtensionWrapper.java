@@ -12,7 +12,7 @@ public class SdocCodegenExtensionWrapper implements IConfigurationWrapper<SdocCo
 
 	@Override
 	public List<SdocCodegenExtensionInfo> create(IExtension extension, IConfigurationElement element) {
-		return Arrays.asList(new SdocCodegenExtensionInfo[] {new SdocCodegenExtensionInfo(extension, element)});
+		return Arrays.asList(new SdocCodegenExtensionInfo[] { new SdocCodegenExtensionInfo(extension, element)});
 	}
 
 }

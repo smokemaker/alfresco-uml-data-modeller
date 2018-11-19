@@ -11,7 +11,6 @@ import org.eclipse.gmf.runtime.common.core.command.ICommand;
 import org.eclipse.jface.window.Window;
 import org.eclipse.papyrus.infra.emf.utils.EMFHelper;
 import org.eclipse.papyrus.uml.profile.ui.dialogs.ElementImportTreeSelectionDialog.ImportSpec;
-import org.eclipse.papyrus.uml.tools.importsources.PackageImportSourceDialog;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.uml2.uml.Package;
@@ -21,10 +20,7 @@ import ru.neodoc.content.modeller.ui.dialogs.NamespaceImportDialog;
 import ru.neodoc.content.modeller.ui.dialogs.NamespaceImportSourceDialog;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Model;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackageImport.ImportNamespace;
 import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchHelperFactory;
-import ru.neodoc.content.utils.CommonUtils;
-import ru.neodoc.content.utils.uml.profile.AbstractProfile;
 import ru.neodoc.org.eclipse.papyrus.uml.importt.handlers.ImportPackageFromUserModelHandler;
 
 public class ImportNamespaceFromUserModelHandler extends ImportPackageFromUserModelHandler {

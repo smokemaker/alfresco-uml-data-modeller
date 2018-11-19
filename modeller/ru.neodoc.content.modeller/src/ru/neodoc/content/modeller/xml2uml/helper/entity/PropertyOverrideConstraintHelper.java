@@ -7,18 +7,13 @@ import java.util.List;
 import org.alfresco.model.dictionary._1.Constraint;
 import org.alfresco.model.dictionary._1.PropertyOverride;
 import org.eclipse.uml2.uml.Class;
-import org.eclipse.uml2.uml.Dependency;
 import org.eclipse.uml2.uml.Element;
 import org.eclipse.uml2.uml.Namespace;
-import org.eclipse.uml2.uml.Package;
-
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractConstraintInConstraintedObjectHelper;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.utils.CommonUtils;
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
-import ru.neodoc.content.utils.uml.search.UMLSearchUtils;
 
 public class PropertyOverrideConstraintHelper extends AbstractConstraintInConstraintedObjectHelper<PropertyOverride> {
 

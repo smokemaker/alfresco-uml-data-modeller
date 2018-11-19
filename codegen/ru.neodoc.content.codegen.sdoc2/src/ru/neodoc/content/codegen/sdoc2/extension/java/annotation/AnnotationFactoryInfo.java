@@ -3,8 +3,6 @@ package ru.neodoc.content.codegen.sdoc2.extension.java.annotation;
 import org.eclipse.core.runtime.IConfigurationElement;
 import org.eclipse.core.runtime.IExtension;
 
-import ru.neodoc.content.codegen.CodegenPlugin;
-import ru.neodoc.content.codegen.SourceCodeGenerator;
 import ru.neodoc.content.codegen.sdoc2.SdocCodegenPlugin;
 import ru.neodoc.content.codegen.sdoc2.generator.annotation.SdocAnnotationFactory;
 

@@ -6,22 +6,16 @@ import java.util.List;
 import org.alfresco.model.dictionary._1.Association;
 import org.alfresco.model.dictionary._1.Class;
 
-import ru.neodoc.content.modeller.tasks.ExecutionCallback;
-import ru.neodoc.content.modeller.utils.uml.AlfrescoUMLUtils;
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractRelationSubHelper;
 import ru.neodoc.content.modeller.xml2uml.structure.AssociationInfo;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
-import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo.DependencyType;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
-import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForAssociation.MandatoryAspect;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForAssociation.TargetMandatory;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForClass.ClassMain;
 import ru.neodoc.content.utils.CommonUtils;
 import ru.neodoc.content.utils.uml.AssociationComposer;
 import ru.neodoc.content.utils.uml.profile.AbstractProfile;
-import ru.neodoc.content.utils.uml.profile.stereotype.ProfileStereotypeClassified;
 import ru.neodoc.content.utils.uml.profile.stereotype.StereotypedElement;
 import ru.neodoc.content.utils.uml.search.UMLSearchUtils;
 

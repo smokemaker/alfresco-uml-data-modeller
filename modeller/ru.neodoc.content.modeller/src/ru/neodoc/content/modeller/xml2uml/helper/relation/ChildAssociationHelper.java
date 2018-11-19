@@ -8,7 +8,6 @@ import org.eclipse.uml2.uml.Association;
 
 import ru.neodoc.content.modeller.xml2uml.helper.AbstractHelper;
 import ru.neodoc.content.modeller.xml2uml.helper.entity.ClassHelper;
-import ru.neodoc.content.modeller.xml2uml.structure.ComplexRegistry;
 import ru.neodoc.content.modeller.xml2uml.structure.ModelObject;
 import ru.neodoc.content.modeller.xml2uml.structure.RelationInfo.DependencyType;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;

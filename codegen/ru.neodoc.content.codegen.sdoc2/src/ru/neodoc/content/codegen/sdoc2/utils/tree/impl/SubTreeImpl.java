@@ -64,7 +64,6 @@ public class SubTreeImpl<T> extends TreeItemImpl<T> implements SubTree<T> {
 		List<TreeItem<T>> allItems = getAllItems();
 		for (TreeItem<T> item: allItems)
 			if (item instanceof Leaf) {
-				@SuppressWarnings("unchecked")
 				Leaf<T> leaf = (Leaf<T>)item;
 				if (object==null && leaf.getObject()==null)
 					return leaf;

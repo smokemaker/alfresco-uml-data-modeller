@@ -109,6 +109,7 @@ public interface ExecutionContext {
 	};
 	public void put(String name, Object object);
 	
+	@SuppressWarnings("unchecked")
 	default public <T> T get(Class<T> clazz) {
 		try {
 			return (T)get(clazz.getName());

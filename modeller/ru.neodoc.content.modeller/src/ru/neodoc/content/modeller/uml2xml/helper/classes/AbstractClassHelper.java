@@ -3,19 +3,14 @@ package ru.neodoc.content.modeller.uml2xml.helper.classes;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.alfresco.model.dictionary._1.Model.DataTypes;
-import org.alfresco.model.dictionary._1.Model.DataTypes.DataType;
 import org.eclipse.uml2.uml.Class;
 import org.eclipse.uml2.uml.Package;
-import org.eclipse.uml2.uml.PrimitiveType;
-
 import ru.neodoc.content.modeller.uml2xml.helper.AbstractSubHelper;
 import ru.neodoc.content.modeller.uml2xml.helper.ObjectContainer;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForClass.Archive;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForClass.ClassMain;
 import ru.neodoc.content.profile.alfresco.AlfrescoProfile.ForPackage.Namespace;
-import ru.neodoc.content.profile.alfresco.search.helper.AlfrescoSearchHelperFactory;
 import ru.neodoc.content.utils.CommonUtils;
 import ru.neodoc.content.utils.CommonUtils.ListComparator;
 import ru.neodoc.content.utils.uml.search.helper.SearchHelperFactory;
